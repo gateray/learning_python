@@ -1,0 +1,31 @@
+{
+  "mysqlconfig":{
+    "MYSQL_USER":"root",
+    "MYSQL_PASSWD":"mysql",
+    "MYSQL_PORT":3306,
+    "MYSQL_DB" :"07day05",
+    "MYSQL_HOST":"localhost"
+  },
+  "socketconfig":{
+    "LISTENIP":"0.0.0.0",
+    "PORT":9999,
+    "HOST":"127.0.0.1"
+  },
+  "modelbeans":"model.beans",
+  "modelxbs":"services.xiaobin_services",
+  "userclass":"User",
+  "messageclass":"Message",
+  "qaclass":"QA",
+  "pgclass":"Page",
+  "sql":{
+    "queryuserbyname":"select * from t_user where name=%(name)s",
+    "queryuserbyid":"select * from t_user where id=%(id)s",
+    "insertuser":"insert into t_user (name,pwd) values(%(name)s,%(pwd)s)",
+    "querychatlog":"select * from t_message where s_uid=%(s_uid)s or r_uid=%(r_uid)s",
+    "querychatlogcount":"select count(*) from t_message",
+    "querychatlogbydt":"select * from t_message where c_time between %(b_tm)s and %(e_tm)s and s_uid=%(s_uid)s or r_uid=%(r_uid)s",
+    "insertchatlog":"insert into t_message (s_uid,r_uid,content) values (%(s_uid)s,%(r_uid)s,%(content)s)",
+    "queryanswer":"select answer from t_qa where question=%(question)s",
+    "insertqa":"insert into t_qa values(%(question)s,%(answer)s)"
+  }
+}

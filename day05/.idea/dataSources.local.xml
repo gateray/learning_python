@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - bingdu@10.1.12.40" uuid="92e54780-dfe1-498e-b630-39713924210b">
+      <secret-storage>master_key</secret-storage>
+      <user-name>bingdu</user-name>
+      <schema-pattern>bingdu.*</schema-pattern>
+      <default-schemas>bingdu.*</default-schemas>
+    </data-source>
+  </component>
+</project>

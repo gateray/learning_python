@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <select>
+        <option>北京</option>
+        <option>上海</option>
+        <option selected="selected">广州</option>
+    </select>
+    <br/>
+    <select>
+        <optgroup label="河北省">
+            <option>石家庄</option>
+            <option>邯郸</option>
+        </optgroup>
+        <optgroup label="广东">
+            <option>广州</option>
+            <option>佛山</option>
+        </optgroup>
+    </select>
+    <select multiple="multiple">
+        <option>北京</option>
+        <option>上海</option>
+        <option selected="selected">广州</option>
+    </select>
+    <br/>
+    <input type="text" />
+    <input type="password" />
+    <input type="checkbox" />
+    <input type="checkbox" />
+    <input type="checkbox" />
+    男<input type="radio" name="xx" />
+    女<input type="radio" name="xx" checked="checked" />
+    中<input type="radio" name="xx" />
+    <input type="file" />
+    <input type="button" value="保存" />
+    <input type="submit" />
+
+    <textarea>hello</textarea><br/>
+    <label>用户名：</label><input id="name" type="text"/><br/>
+    <label for="name">密码：</label><input type="password" /><br/>
+
+    <ul>
+        <li>元素1</li>
+        <li>元素2</li>
+        <li>元素3</li>
+    </ul>
+    <ol>
+        <li>元素1</li>
+        <li>元素2</li>
+        <li>元素3</li>
+    </ol>
+    <dl>
+        <dt>标题一</dt>
+        <dd>内容</dd>
+        <dd>内容</dd>
+        <dd>内容</dd>
+        <dt>标题二</dt>
+        <dd>内容</dd>
+        <dd>内容</dd>
+        <dd>内容</dd>
+    </dl>
+    <br/>
+    <table border="1">
+        <thead>
+            <tr><th colspan="2">第一列</th><th>第二列</th>></tr>
+        </thead>
+        <tbody>
+            <tr><td rowspan="2">第一列</td><td>第二列</td><td>第三列</td></tr>
+            <tr><td>第二列</td><td>第三列</td></tr>
+            <tr><td>第一列</td><td>第二列</td><td>第三列</td></tr>
+            <tr><td>第一列</td><td>第二列</td><td>第三列</td></tr>
+        </tbody>
+    </table>
+
+    <fieldset>
+        <legend>登录</legend>
+        <label>用户名：</label><input id="name" type="text"/><br/>
+        <label>密码：</label><input type="password" /><br/>
+    </fieldset>
+
+    <form action="http://www.sogou.com/sogou">
+        <label>关键词：</label><input name="query" type="text"/><br/>
+        <input type="submit" value="提交" />
+    </form>
+</body>
+</html>

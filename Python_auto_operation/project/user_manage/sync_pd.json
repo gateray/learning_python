@@ -1,0 +1,632 @@
+[
+  {
+    "username": "cpan",
+    "shell": "/bin/bash", 
+    "uid": "2001",
+    "__cls__": "__main__.User", 
+    "key": null, 
+    "pwd": null, 
+    "dash_pubkey": null, 
+    "dash_key": null, 
+    "groups": [
+      {
+        "groupname": "rzheng",
+        "gid": "2001",
+        "hosts": [], 
+        "users": [], 
+        "__cls__": "__main__.Group"
+      }, 
+      {
+        "groupname": "ops", 
+        "gid": "2999",
+        "hosts": [
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.8.28",
+            "hostname":"AWSGizIMGRepo"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.7.204",
+            "hostname":"AWSGizBuildNode"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.11.30",
+            "hostname":"AQAGrayLog01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.11.181",
+            "hostname":"AQAEngine01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.10.169",
+            "hostname":"AQALD01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.229",
+            "hostname":"AQAHDP01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.230",
+            "hostname":"AQAHDP02"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.231",
+            "hostname":"AQAHDP03"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.9.204",
+            "hostname":"AWSGizBuildControler"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.10.81",
+            "hostname":"AWSGizCacheRepo"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.12.101",
+            "hostname":"AQAM2M01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.12.102",
+            "hostname":"AQAM2M02"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.5.12",
+            "hostname":"Redmine01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.8.235",
+            "hostname":"AQASite01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.3.105",
+            "hostname":"AQAAPI01"
+          }
+        ],
+        "users": [],
+        "__cls__": "__main__.Group"
+      }
+    ], 
+    "pubkey": null, 
+    "dash_keypassphrase": null, 
+    "homedir": null
+  },
+  {
+    "username": "fhu",
+    "shell": "/bin/bash",
+    "uid": "2002",
+    "__cls__": "__main__.User",
+    "key": null,
+    "pwd": null,
+    "dash_pubkey": null,
+    "dash_key": null,
+    "groups": [
+      {
+        "groupname": "fhu",
+        "gid": "2002",
+        "hosts": [],
+        "users": [],
+        "__cls__": "__main__.Group"
+      },
+      {
+        "groupname": "ops",
+        "gid": "2999",
+        "hosts": [
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.8.28",
+            "hostname":"AWSGizIMGRepo"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.7.204",
+            "hostname":"AWSGizBuildNode"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.11.30",
+            "hostname":"AQAGrayLog01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.11.181",
+            "hostname":"AQAEngine01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.10.169",
+            "hostname":"AQALD01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.229",
+            "hostname":"AQAHDP01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.230",
+            "hostname":"AQAHDP02"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.231",
+            "hostname":"AQAHDP03"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.9.204",
+            "hostname":"AWSGizBuildControler"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.10.81",
+            "hostname":"AWSGizCacheRepo"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.12.101",
+            "hostname":"AQAM2M01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.12.102",
+            "hostname":"AQAM2M02"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.5.12",
+            "hostname":"Redmine01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.8.235",
+            "hostname":"AQASite01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.3.105",
+            "hostname":"AQAAPI01"
+          }
+        ],
+        "users": [],
+        "__cls__": "__main__.Group"
+      }
+    ],
+    "pubkey": null,
+    "dash_keypassphrase": null,
+    "homedir": null
+  },
+  {
+    "username": "gwzhou",
+    "shell": "/bin/bash",
+    "uid": "2003",
+    "__cls__": "__main__.User",
+    "key": null,
+    "pwd": null,
+    "dash_pubkey": null,
+    "dash_key": null,
+    "groups": [
+      {
+        "groupname": "fhu",
+        "gid": "2003",
+        "hosts": [],
+        "users": [],
+        "__cls__": "__main__.Group"
+      },
+      {
+        "groupname": "ops",
+        "gid": "2999",
+        "hosts": [
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.8.28",
+            "hostname":"AWSGizIMGRepo"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.7.204",
+            "hostname":"AWSGizBuildNode"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.11.30",
+            "hostname":"AQAGrayLog01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.11.181",
+            "hostname":"AQAEngine01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.10.169",
+            "hostname":"AQALD01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.229",
+            "hostname":"AQAHDP01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.230",
+            "hostname":"AQAHDP02"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.231",
+            "hostname":"AQAHDP03"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.9.204",
+            "hostname":"AWSGizBuildControler"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.10.81",
+            "hostname":"AWSGizCacheRepo"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.12.101",
+            "hostname":"AQAM2M01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.12.102",
+            "hostname":"AQAM2M02"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.5.12",
+            "hostname":"Redmine01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.8.235",
+            "hostname":"AQASite01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.3.105",
+            "hostname":"AQAAPI01"
+          }
+        ],
+        "users": [],
+        "__cls__": "__main__.Group"
+      }
+    ],
+    "pubkey": null,
+    "dash_keypassphrase": null,
+    "homedir": null
+  },
+  {
+    "username": "she",
+    "shell": "/bin/bash",
+    "uid": "2004",
+    "__cls__": "__main__.User",
+    "key": null,
+    "pwd": null,
+    "dash_pubkey": null,
+    "dash_key": null,
+    "groups": [
+      {
+        "groupname": "she",
+        "gid": "2004",
+        "hosts": [],
+        "users": [],
+        "__cls__": "__main__.Group"
+      },
+      {
+        "groupname": "ops",
+        "gid": "2999",
+        "hosts": [
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.8.28",
+            "hostname":"AWSGizIMGRepo"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.7.204",
+            "hostname":"AWSGizBuildNode"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.11.30",
+            "hostname":"AQAGrayLog01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.11.181",
+            "hostname":"AQAEngine01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.10.169",
+            "hostname":"AQALD01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.229",
+            "hostname":"AQAHDP01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.230",
+            "hostname":"AQAHDP02"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.231",
+            "hostname":"AQAHDP03"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.9.204",
+            "hostname":"AWSGizBuildControler"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.10.81",
+            "hostname":"AWSGizCacheRepo"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.12.101",
+            "hostname":"AQAM2M01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.12.102",
+            "hostname":"AQAM2M02"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.5.12",
+            "hostname":"Redmine01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.8.235",
+            "hostname":"AQASite01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.3.105",
+            "hostname":"AQAAPI01"
+          }
+        ],
+        "users": [],
+        "__cls__": "__main__.Group"
+      }
+    ],
+    "pubkey": null,
+    "dash_keypassphrase": null,
+    "homedir": null
+  },
+  {
+    "username": "wwluo",
+    "shell": "/bin/bash",
+    "uid": "2005",
+    "__cls__": "__main__.User",
+    "key": null,
+    "pwd": null,
+    "dash_pubkey": null,
+    "dash_key": null,
+    "groups": [
+      {
+        "groupname": "she",
+        "gid": "2005",
+        "hosts": [],
+        "users": [],
+        "__cls__": "__main__.Group"
+      },
+      {
+        "groupname": "ops",
+        "gid": "2999",
+        "hosts": [
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.8.28",
+            "hostname":"AWSGizIMGRepo"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.7.204",
+            "hostname":"AWSGizBuildNode"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.11.30",
+            "hostname":"AQAGrayLog01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.11.181",
+            "hostname":"AQAEngine01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.10.169",
+            "hostname":"AQALD01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.229",
+            "hostname":"AQAHDP01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.230",
+            "hostname":"AQAHDP02"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.231",
+            "hostname":"AQAHDP03"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.9.204",
+            "hostname":"AWSGizBuildControler"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.10.81",
+            "hostname":"AWSGizCacheRepo"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.12.101",
+            "hostname":"AQAM2M01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.12.102",
+            "hostname":"AQAM2M02"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.5.12",
+            "hostname":"Redmine01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.8.235",
+            "hostname":"AQASite01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.3.105",
+            "hostname":"AQAAPI01"
+          }
+        ],
+        "users": [],
+        "__cls__": "__main__.Group"
+      }
+    ],
+    "pubkey": null,
+    "dash_keypassphrase": null,
+    "homedir": null
+  },
+  {
+    "username": "yliu",
+    "shell": "/bin/bash",
+    "uid": "2006",
+    "__cls__": "__main__.User",
+    "key": null,
+    "pwd": null,
+    "dash_pubkey": null,
+    "dash_key": null,
+    "groups": [
+      {
+        "groupname": "yliu",
+        "gid": "2006",
+        "hosts": [],
+        "users": [],
+        "__cls__": "__main__.Group"
+      },
+      {
+        "groupname": "ops",
+        "gid": "2999",
+        "hosts": [
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.8.28",
+            "hostname":"AWSGizIMGRepo"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.7.204",
+            "hostname":"AWSGizBuildNode"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.11.30",
+            "hostname":"AQAGrayLog01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.11.181",
+            "hostname":"AQAEngine01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.10.169",
+            "hostname":"AQALD01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.229",
+            "hostname":"AQAHDP01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.230",
+            "hostname":"AQAHDP02"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.20.231",
+            "hostname":"AQAHDP03"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.9.204",
+            "hostname":"AWSGizBuildControler"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.10.81",
+            "hostname":"AWSGizCacheRepo"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.12.101",
+            "hostname":"AQAM2M01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.12.102",
+            "hostname":"AQAM2M02"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.5.12",
+            "hostname":"Redmine01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.8.235",
+            "hostname":"AQASite01"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"172.31.3.105",
+            "hostname":"AQAAPI01"
+          }
+        ],
+        "users": [],
+        "__cls__": "__main__.Group"
+      }
+    ],
+    "pubkey": null,
+    "dash_keypassphrase": null,
+    "homedir": null
+  }
+]

@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - bingdu@10.1.12.40" uuid="92e54780-dfe1-498e-b630-39713924210b">
+    <database-info product="MySQL" version="5.6.22-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="bingdu"/>
+    <table name="bd_activity_define" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSuSUQ=" autoIncrement="true"/>
+      <column name="title" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12" remarks="5rS75Yqo5qCH6aKY"/>
+      <column name="start_datetime" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" remarks="5rS75Yqo5byA5aeL5pe26Ze0"/>
+      <column name="end_datetime" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" remarks="5rS75Yqo57uT5p2f5pe26Ze0"/>
+      <column name="status_android" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5a6J5Y2T5bmz5Y+w5rS75Yqo54q25oCB77yIMO+8muS4i+e6v++8mzHvvJrkuIrnur/vvIk="/>
+      <column name="create_datetime" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93" remarks="6K6w5b2V5Yib5bu65pe26Ze0"/>
+      <column name="update_datetime" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93" remarks="6K6w5b2V5L+u5pS55pe26Ze0"/>
+      <column name="creator" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12" remarks="5rS75Yqo5Yib5bu66ICF"/>
+      <column name="detail_page" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12" remarks="5rS75Yqo6K+m5oOF6aG1dXJs"/>
+      <column name="category" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5rS75Yqo5YiG57G7KCk="/>
+      <column name="summary" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="false" jdbcType="-1" remarks="5rS75Yqo566A5LuL"/>
+      <column name="status_ios" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="aW9z5bmz5Y+w5rS75Yqo54q25oCBKDA65LiL57q/77ybMeS4iue6vyk="/>
+      <column name="activity_status" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="MQ==" remarks="6K6w5b2V54q25oCB77yIMTrlj6/nlKg7MDrliKDpmaTvvIk="/>
+      <column name="estimate" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6aKE6K6h5Lq65pWw"/>
+      <column name="activity_code" sqlType="VARCHAR" precision="10" scale="0" nullable="true" jdbcType="12" remarks="5rS75Yqo5qCH6K+G"/>
+      <column name="activity_platform" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" remarks="5rig6YGT5qCH6K+G77yIKuihqOekuuWcqOaJgOaciea4oOmBk+eUn+aViO+8iQ=="/>
+      <column name="vice_title" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5rS75Yqo5Ymv5qCH6aKY"/>
+      <column name="icon_url" sqlType="VARCHAR" precision="500" scale="0" nullable="true" jdbcType="12" remarks="5rS75Yqo5Zu+5qCH"/>
+      <column name="superscript_url" sqlType="VARCHAR" precision="500" scale="0" nullable="true" jdbcType="12" remarks="6KeS5qCH5Zu+5qCH"/>
+      <column name="sort" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5rS75Yqo5o6S5bqP"/>
+      <column name="online_status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MQ==" remarks="5LiK57q/54q25oCBKDA65LiL57q/OzE65LiK57q/"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_activity_escape_man" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Lq65ZGYaWQ=" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5ZCN5a2X"/>
+      <column name="head_img_url" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5aS05YOPVVJM"/>
+      <column name="source" sqlType="VARCHAR" precision="100" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5p2l5rqQ5Zyw"/>
+      <column name="destination" sqlType="VARCHAR" precision="100" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="55uu55qE5Zyw"/>
+      <column name="description" sqlType="VARCHAR" precision="500" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5o+P6L+w"/>
+      <column name="charge" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="572q5ZCN"/>
+      <column name="caught" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5piv5ZCm5bey6KKr5oqT"/>
+      <column name="memo" sqlType="VARCHAR" precision="500" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5aSH5rOo"/>
+      <column name="create_time" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5pu05paw5pe26Ze0"/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="54q25oCB"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_activity_escape_man_relationship" schema="" catalog="bingdu" type="TABLE">
+      <column name="area_name" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12" remarks="5Zyw5ZCN"/>
+      <column name="person_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Lq65ZGYaWQ="/>
+      <column name="type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="57G75Z6LLDFzcmMsMmRlc3Q="/>
+      <primary-key name="PRIMARY" columns="area_name,person_id,type"/>
+    </table>
+    <table name="bd_activity_graffiti_works" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="55So5oi3SUQ="/>
+      <column name="register_code" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12" remarks="6YKA6K+356CBL+aJi+acuuWPt+eggQ=="/>
+      <column name="activity_season" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5rS75Yqo6Zi25q61"/>
+      <column name="works_title" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5L2c5ZOB5ZCN56ew"/>
+      <column name="works_url" sqlType="VARCHAR" precision="300" scale="0" nullable="false" jdbcType="12" remarks="5L2c5ZOBVVJM"/>
+      <column name="praise_num" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="54K56LWe5pWw"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="status" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="MQ==" remarks="5L2c5ZOB54q25oCB77yIMTrlsZXnpLrkuK07IDA656e76Zmk77yJ"/>
+      <column name="isCellphoneUser" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5piv5ZCm5piv5omL5py65Y+35LiK5Lyg55So5oi35LiU6K+l5omL5py65Y+35pyq5rOo5YaM"/>
+      <column name="remark" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5aSH5rOo"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_activity_logistics_information" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSuaWQ=" autoIncrement="true"/>
+      <column name="uid" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="54mp5rWB57G75Z6L44CQMO+8muWlluWTge+8jDHvvJrllYblk4HjgJHnrYk="/>
+      <column name="target_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55uu5qCH5a+56LGhaWQs5aaC54mp5rWB57G75Z6L5piv5aWW5ZOB77yM5q2k5aSE5bCx5piv5aWW5ZOBaWQ="/>
+      <column name="company" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="J+mhuuS4sOW/q+mAkic=" remarks="54mp5rWB5YWs5Y+45ZCN"/>
+      <column name="number" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12" remarks="54mp5rWB5Y2V5Y+3ICjluLjop4HnmoTlv6vpgJLljZXlj7fkuZ/lsLExM+S9jSk="/>
+      <column name="delivery_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzIwMzgtMDEtMTkgMDA6MDA6MDAn" remarks="5Y+R6LSn5pe26Ze0"/>
+      <column name="info" sqlType="VARCHAR" precision="2000" scale="0" nullable="true" jdbcType="12" def="J+acquacieeJqea1geS/oeaBryc=" remarks="54mp5rWB6K+m57uG5L+h5oGv"/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="54mp5rWB54q25oCB44CQMO+8muacquetvuaUtu+8jDHvvJrlt7Hnrb7mlLbjgJHvvIzkuLvopoHnlKjkuo7liKTmlq3nlKjmiLfmmK/lkKblt7Hnrb7mlLbvvIzlvZPnrb7mlLblkI7miJHku6zlsLHkuI3lho3ooqvliqjop6blj5HnianmtYHkv6Hmga/mipPlj5bkuoY="/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_logis_number" unique="false" columns="number"/>
+      <index name="idx_logis_target_id" unique="false" columns="target_id"/>
+    </table>
+    <table name="bd_activity_prizes" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5aWW5ZOBSUQ=" autoIncrement="true"/>
+      <column name="activity_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5rS75YqoSUQ="/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12" remarks="5aWW5ZOB5ZCN56ew"/>
+      <column name="point" sqlType="DECIMAL" precision="9" scale="2" nullable="false" jdbcType="3" remarks="5aWW5ZOB5aKe5Yqg55qE56ev5YiG"/>
+      <column name="num" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5aWW5ZOB55qE5pWw6YeP"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="prize_lower" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="prize_upper" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="prize_level" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_activity_rab_money_details" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSuSUQ=" autoIncrement="true"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="activity_define_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="create_datetime" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="app_shop" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="app_shop_username" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5rS75Yqo5Y+C5LiO54q25oCB77yIMO+8muWuoeaguOiiq+mps+Wbnu+8mzHvvJrlvoXlrqHmoLjvvJsy77ya5a6h5qC46YCa6L+H77yM5Y+v5oq95aWW77ybM++8muW3suaKveWllizlvoXpooblpZY7NDrlt7LpooblpZbvvIk="/>
+      <column name="draw_result" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5oq95aWW57uT5p6c77yIMTrkuIDnrYnlpZbvvJsyOuS6jOetieWllu+8mjM65LiJ562J5aWW77yJ"/>
+      <column name="client_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5bmz5Y+w57G75Z6L77yIMe+8mmFuZHJvaWQ7IDI6aW9z77yJ"/>
+      <column name="update_datetime" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93" remarks="5L+u5pS55pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_activity_record" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="activity_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5rS75Yqo5Li76ZSu"/>
+      <column name="user_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi35Li76ZSu"/>
+      <column name="prize_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5aWW5ZOB5Li76ZSu"/>
+      <column name="random_code" sqlType="VARCHAR" precision="40" scale="0" nullable="true" jdbcType="12" remarks="6ZqP5py656CB"/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5piv5ZCm6aKG5Y+W"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_activity_ticket" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="aWQ=" autoIncrement="true"/>
+      <column name="uid" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3aWQ="/>
+      <column name="phone_number" sqlType="CHAR" precision="11" scale="0" nullable="false" jdbcType="1" remarks="55S16K+d5Y+356CB"/>
+      <column name="participate_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn" remarks="5Y+C5LiO5pe26Ze0" version="true"/>
+      <column name="ticket" sqlType="CHAR" precision="14" scale="0" nullable="true" jdbcType="1" remarks="6LGq5Y2O5Y2I6aSQ56Wo5Yi45Y+3"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5Yib5bu65pe26Ze0" version="true"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_activity_user_dynamic" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="aWTkuLvplK4=" autoIncrement="true"/>
+      <column name="uid" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3aWTjgJDlhpfkvZnlrZfmrrXjgJE="/>
+      <column name="type" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12" remarks="5Yqo5oCB57G75Z6L44CQTE9UVEVSWe+8muWlluWIuO+8jEdPT0RT77ya5ZWG5ZOB77yMV0lUSERSQVfvvJrmj5DnjrDjgJE="/>
+      <column name="target_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55uu5qCHaWTvvIzlpoLmj5DnjrBpZCwg54mp5rWBaWQs5aWW5Yi4aWQ="/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MQ==" remarks="54q25oCB44CQMO+8muWksei0pe+8jDHvvJrmiJDlip/jgJE="/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_dyn_target_id" unique="false" columns="target_id"/>
+      <index name="idx_uid" unique="false" columns="uid"/>
+    </table>
+    <table name="bd_activity_user_info" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSuaWQ=" autoIncrement="true"/>
+      <column name="uid" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3dWlk"/>
+      <column name="name" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12" remarks="55So5oi35aeT5ZCN"/>
+      <column name="phone_number" sqlType="CHAR" precision="11" scale="0" nullable="false" jdbcType="1" remarks="5omL5py65Y+356CB"/>
+      <column name="address" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12" remarks="5Zyw5Z2A"/>
+      <column name="head_url" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" remarks="55So5oi35aS05YOP44CQ5YaX5L2Z5a2X5q6144CR"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_userinfo_phnum" unique="false" columns="phone_number"/>
+    </table>
+    <table name="bd_activity_win_prize" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="activity_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5rS75Yqo5Li76ZSu"/>
+      <column name="activity_name" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" remarks="5rS75Yqo5ZCN56ew"/>
+      <column name="user_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi35Li76ZSu"/>
+      <column name="user_name" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" remarks="55So5oi35ZCN56ew"/>
+      <column name="prize_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5aWW5ZOB5Li76ZSu"/>
+      <column name="prize_name" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" remarks="5aWW5ZOB5ZCN56ew"/>
+      <column name="prize_level" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5aWW5ZOB57G75Z6L"/>
+      <column name="prize_type" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5aWW5ZOB5oCn6LSo77yaMOenr+WIhuOAgTHlrp7niak="/>
+      <column name="prize_value" sqlType="DECIMAL" precision="9" scale="2" nullable="true" jdbcType="3" remarks="5aWW5ZOB5Lu35YC8"/>
+      <column name="real_name" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12" remarks="55So5oi35aeT5ZCN"/>
+      <column name="mobile_number" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12" remarks="5omL5py65Y+356CB"/>
+      <column name="address" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" remarks="6YCB6LSn5Zyw5Z2A"/>
+      <column name="lucky_status" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5Lit5aWW54q25oCB"/>
+      <column name="lucky_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5Lit5aWW5pe26Ze0"/>
+      <column name="send_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5Y+R5aWW5pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_ad_advertisement" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5bm/5ZGKSUQ=" autoIncrement="true"/>
+      <column name="channel_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6aKR6YGTSUQ="/>
+      <column name="ad_pos_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5bm/5ZGK5L2NSUQ="/>
+      <column name="carousel_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="LTE=" remarks="6L2u5pKt5L2NSUQ="/>
+      <column name="title" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12" remarks="5bm/5ZGK5qCH6aKY"/>
+      <column name="ad_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5bm/5ZGK57G75Z6LKDE6ICLlkK/liqjpobUiLCAyOiAi6L2u5pKtIiwgMzogIuS/oeaBr+a1gSIsIDQ6ICLova/mlociLCA1OiAi5paH56ugIik="/>
+      <column name="release_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5bm/5ZGK5oqV5pS+57G75Z6LKDE65bGV56S65pe26Ze0OzI65bGV56S65qyh5pWwOzM654K55Ye75qyh5pWwOzQ66ZiF6K+75pWwOzU65YiG5Lqr5pWwKQ=="/>
+      <column name="image_url" sqlType="VARCHAR" precision="500" scale="0" nullable="true" jdbcType="12" remarks="5bm/5ZGK5Zu+VVJM"/>
+      <column name="ad_link" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="true" jdbcType="-1" remarks="5bm/5ZGK6ZO+5o6l"/>
+      <column name="ad_status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5bm/5ZGK54q25oCBKDA656aB55SoOzE65ZCv55SoOzI65bey5Yig6ZmkKQ=="/>
+      <column name="news_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="LTE=" remarks="6L2v5paHSUQo6L2v5paH5Y2z5paw6Ze7LOWtmOWCqOS6juaWsOmXu+ihqCk="/>
+      <column name="draft_news_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="LTE=" remarks="6L2v5paH6I2J56i/SUQo6L2v5paH5Y2z5paw6Ze7LOWtmOWCqOS6juW+heWPkeW4g+aWsOmXu+ihqCk="/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0" version="true"/>
+      <column name="redirect_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MQ==" remarks="6YeN5a6a5ZCR57G75Z6LKDE65bm/5ZGK6ZO+5o6l77yMMjrllYblk4Hor6bmg4XvvIwzOuaKveWlluivpuaDhe+8jDQ65rS75Yqo6K+m5oOFKQ=="/>
+      <column name="redirect_target_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="6YeN5a6a5ZCR55uu5qCHSUQ="/>
+      <column name="activity_link" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="true" jdbcType="-1" remarks="5rS75Yqo6ZO+5o6l"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_ad_ad_cid" unique="false" columns="channel_id"/>
+      <index name="idx_ad_ad_pid" unique="false" columns="ad_pos_id"/>
+    </table>
+    <table name="bd_ad_alliance" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="alliance_name" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12" remarks="572R55uf5ZCN56ew"/>
+      <column name="alliance_code" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="572R55uf5Luj56CB"/>
+      <column name="alliance_request_url" sqlType="VARCHAR" precision="500" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="572R55uf6K+35rGCVVJM"/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="LTE=" remarks="5bmz5Y+w54q25oCBKDA656aB55SoOyAxOuWQr+eUqDsp"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_ad_alliance_advertise" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5Li76ZSu"/>
+      <column name="alliance_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="572R55ufSUQ="/>
+      <column name="ad_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5bm/5ZGK57G75Z6LIDAuIFRFWFQgMS4gSU1BR0UgMi4gVEVYVF9JQ09OIDMuIFZJREVP"/>
+      <column name="interaction_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="LTE=" remarks="5bm/5ZGK5Lqk5LqS57G75Z6LCjAuIE5PX0lOVEVSQUNUCjEuIFNVUkZJTkcKMi4gRE9XTkxPQUQKMy4gRElBTElORwo0LiBNRVNTQUdFCjUuIE1BSUw="/>
+      <column name="ad_title" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5bm/5ZGK5qCH6aKY"/>
+      <column name="description1" sqlType="VARCHAR" precision="1000" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5bm/5ZGK5o+P6L+wIDE="/>
+      <column name="description2" sqlType="VARCHAR" precision="1000" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5bm/5ZGK5o+P6L+wIDE="/>
+      <column name="image_url" sqlType="VARCHAR" precision="1500" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5Zu+54mHIFVSTA=="/>
+      <column name="logo_url" sqlType="VARCHAR" precision="1500" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5Zu+5qCHVVJM"/>
+      <column name="click_url" sqlType="VARCHAR" precision="1500" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="54K55Ye75Zyw5Z2A"/>
+      <column name="appname" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5bqU55So5ZCN56ew"/>
+      <column name="package" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5bqU55So5YyF5ZCN"/>
+      <column name="appdownload" sqlType="VARCHAR" precision="1500" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="YXBw5bm/5ZGK5LiL6L295a6M5oiQ55uR5o6n"/>
+      <column name="appinstall" sqlType="VARCHAR" precision="1500" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="YXBw5bm/5ZGK5a6J6KOF5a6M5oiQ55uR5o6n"/>
+      <column name="appactive" sqlType="VARCHAR" precision="1500" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="YXBw5bm/5ZGK5r+A5rS755uR5o6n"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5L+u5pS55pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_ad_carousel" schema="" catalog="bingdu" type="TABLE">
+      <column name="carousel_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6L2u5pKt5L2NSUQ=" autoIncrement="true"/>
+      <column name="carousel_name" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12" remarks="6L2u5pKt5L2N5ZCN56ew"/>
+      <column name="carousel_offset" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="6L2u5pKt5L2N5L2N572u"/>
+      <column name="carousel_status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="6L2u5pKt5L2N54q25oCBKDA656aB55SoOzE65ZCv55SoKQ=="/>
+      <column name="ad_pos_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5bm/5ZGK5L2NSUQ="/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0" version="true"/>
+      <primary-key name="PRIMARY" columns="carousel_id"/>
+      <index name="idx_ad_c_pid" unique="false" columns="ad_pos_id"/>
+    </table>
+    <table name="bd_ad_effective_date" schema="" catalog="bingdu" type="TABLE">
+      <column name="ad_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5bm/5ZGKSUQ="/>
+      <column name="effective_date" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pyJ5pWI5pel5pyfKOeyvuehruWIsOaXpSk="/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0" version="true"/>
+      <index name="idx_ad_ed_adid" unique="false" columns="ad_id"/>
+      <index name="idx_ad_ed_date" unique="false" columns="effective_date"/>
+    </table>
+    <table name="bd_ad_image" schema="" catalog="bingdu" type="TABLE">
+      <column name="ad_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5bm/5ZGKSUQ="/>
+      <column name="resolution" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12" remarks="5YiG6L6o546H"/>
+      <column name="image_url" sqlType="VARCHAR" precision="500" scale="0" nullable="false" jdbcType="12" remarks="5bm/5ZGK5Zu+VVJM"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0" version="true"/>
+      <index name="idx_ad_img_adid" unique="false" columns="ad_id"/>
+    </table>
+    <table name="bd_ad_os_rel" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5YWz57O7SUQ=" autoIncrement="true"/>
+      <column name="ad_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5bm/5ZGKSUQ="/>
+      <column name="release_os" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12" remarks="5bm/5ZGK5oqV5pS+57O757ufKDEwMDAwMDE6YW5kcm9pZDsxMDAwMDAyOklPUzsxMDAwMDAzOldBUCk="/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0" version="true"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_ad_os_adid" unique="false" columns="ad_id"/>
+    </table>
+    <table name="bd_ad_period" schema="" catalog="bingdu" type="TABLE">
+      <column name="rel_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5YWz57O7SUQ="/>
+      <column name="begin_time" sqlType="VARCHAR" precision="5" scale="0" nullable="false" jdbcType="12" remarks="5byA5aeL5pe26Ze0KEhIOm1tKQ=="/>
+      <column name="end_time" sqlType="VARCHAR" precision="5" scale="0" nullable="false" jdbcType="12" remarks="57uT5p2f5pe26Ze0KEhIOm1tKQ=="/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0" version="true"/>
+      <index name="idx_ad_p_bd" unique="false" columns="begin_time"/>
+      <index name="idx_ad_p_ed" unique="false" columns="end_time"/>
+      <index name="idx_ad_p_rid" unique="false" columns="rel_id"/>
+    </table>
+    <table name="bd_ad_pos_alliance" schema="" catalog="bingdu" type="TABLE">
+      <column name="ad_pos_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5bm/5ZGK5L2NSUQ="/>
+      <column name="alliance_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="572R55ufSUQ="/>
+    </table>
+    <table name="bd_ad_position" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5bm/5ZGK5L2NSUQ=" autoIncrement="true"/>
+      <column name="channel_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6aKR6YGTSUQ="/>
+      <column name="pos_name" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12" remarks="5bm/5ZGK5L2N5ZCN56ew"/>
+      <column name="pos_identity" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12" remarks="5bm/5ZGK5L2N5qCH6K+G"/>
+      <column name="pos_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5bm/5ZGK5L2N57G75Z6LKDE6ICLlkK/liqjpobUiLCAyOiAi6L2u5pKtIiwgMzogIuS/oeaBr+a1gSIsIDQ6ICLova/mlociLCA1OiAi5paH56ugIik="/>
+      <column name="pos_offset" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="LTE=" remarks="5bGV56S65L2N572uKOS/oeaBr+a1geS4k+eUqCk="/>
+      <column name="max_online_count" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="LTE=" remarks="5pyA6auY5ZCM5pe25Zyo57q/KOi9ruaSreW5v+WRiuS9jem7mOiupOS4ui0xKQ=="/>
+      <column name="display_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5bGV56S65b2i5byPKDA66L2u5pKt5bm/5ZGK5L2N5LiT55SoOzE66ZqP5py65bGV56S6OzI65YiG5pe25q615bGV56S6KQ=="/>
+      <column name="alliance_flag" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5oqV5pS+572R55uf5qCH6K+GKDA65pyq5oqV5pS+LDE65bey5oqV5pS+KQ=="/>
+      <column name="pos_status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5bm/5ZGK5L2N54q25oCBKDA656aB55SoOzE65ZCv55SoOzI65bey5Yig6ZmkKQ=="/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0" version="true"/>
+      <column name="funny_flag" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5pe26Laj5paw6Ze75qCH6K+GKDA65pyq5oqV5pS+LDE65bey5oqV5pS+KQ=="/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_ad_pos_idty" unique="true" columns="pos_identity"/>
+      <index name="idx_ad_pos_cid" unique="false" columns="channel_id"/>
+    </table>
+    <table name="bd_ad_primary_key" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu5YC8"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0"/>
+      <column name="key_type" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12" remarks="5Li76ZSu57G75Z6LKEFEOuW5v+WRiik="/>
+    </table>
+    <table name="bd_ad_random" schema="" catalog="bingdu" type="TABLE">
+      <column name="rel_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5YWz57O7SUQ="/>
+      <column name="random" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12" remarks="6ZqP5py6546H"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0" version="true"/>
+      <index name="idx_ad_r_rid" unique="false" columns="rel_id"/>
+    </table>
+    <table name="bd_ad_statistics" schema="" catalog="bingdu" type="TABLE">
+      <column name="ad_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5bm/5ZGKSUQ="/>
+      <column name="display_count" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="55uu5qCH5bGV56S65pWw"/>
+      <column name="click_count" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="55uu5qCH54K55Ye75pWw"/>
+      <column name="read_count" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="55uu5qCH6ZiF6K+75pWw"/>
+      <column name="share_count" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="55uu5qCH5YiG5Lqr5pWw"/>
+      <column name="clicked_count" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5bey54K55Ye75qyh5pWw"/>
+      <column name="displayed_count" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5bey5bGV56S65qyh5pWw"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0" version="true"/>
+      <index name="idx_ad_s_adid" unique="false" columns="ad_id"/>
+    </table>
+    <table name="bd_admin_channel_perm" schema="" catalog="bingdu" type="TABLE">
+      <column name="role_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6KeS6ImySUQ="/>
+      <column name="channel_perms" sqlType="VARCHAR" precision="1000" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="6aKR6YGT5p2D6ZmQKOS7peKAnCzigJ3liIbpmpTnmoTpopHpgZNJRCk="/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0"/>
+    </table>
+    <table name="bd_admin_role" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="300" scale="0" nullable="true" jdbcType="12"/>
+      <column name="description" sqlType="VARCHAR" precision="765" scale="0" nullable="true" jdbcType="12"/>
+      <column name="perms" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1"/>
+      <column name="is_all_perm" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="is_all_info_perm" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="is_all_node_perm" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="info_perm_type" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="seq" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="role_id_fk" table="bd_admin_user_role" schema="" catalog="bingdu" columns="role_id"/>
+      <index name="id" unique="false" columns="id"/>
+    </table>
+    <table name="bd_admin_user" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="username" sqlType="VARCHAR" precision="60" scale="0" nullable="true" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="300" scale="0" nullable="true" jdbcType="12"/>
+      <column name="salt" sqlType="VARCHAR" precision="150" scale="0" nullable="true" jdbcType="12"/>
+      <column name="create_date" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="update_date" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="last_login_date" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="phone" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" precision="90" scale="0" nullable="true" jdbcType="12"/>
+      <column name="type" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="gender" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="department_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="is_super" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="user_id_fk" table="bd_admin_user_role" schema="" catalog="bingdu" columns="user_id"/>
+      <index name="id" unique="false" columns="id"/>
+    </table>
+    <table name="bd_admin_user_role" schema="" catalog="bingdu" type="TABLE">
+      <column name="user_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="role_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="role_index" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <foreign-key name="role_id_fk" columns="role_id" ref-table="bd_admin_role" ref-schema="" ref-catalog="bingdu" ref-columns="id" update-rule="0" delete-rule="0" deferrability="2"/>
+      <foreign-key name="user_id_fk" columns="user_id" ref-table="bd_admin_user" ref-schema="" ref-catalog="bingdu" ref-columns="id" update-rule="0" delete-rule="0" deferrability="2"/>
+      <index name="role_id_fk" unique="false" columns="role_id"/>
+      <index name="user_id_fk" unique="false" columns="user_id"/>
+    </table>
+    <table name="bd_advertise_position" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="pos_name" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="pos_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="pos_identity" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="pos_specific" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="diplay_title_length" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="pos_counter" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="pos_status" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_advertisement" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="channel_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6aKR6YGTSUQ="/>
+      <column name="ad_pos_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5bm/5ZGK5L2NSUQ="/>
+      <column name="ad_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="file_url" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5bm/5ZGK5paH5Lu255qEVVJM"/>
+      <column name="ad_link" sqlType="VARCHAR" precision="300" scale="0" nullable="false" jdbcType="12" remarks="5bm/5ZGK55qE6ZO+5o6l5Zyw5Z2A"/>
+      <column name="display_title" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5bm/5ZGK5qCH6aKY"/>
+      <column name="display_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5bm/5ZGK5oqV5pS+5pa55byP77yIMDrlsZXnpLrml7bpl7Q7MTrlsZXnpLrmrKHmlbA7Mjrngrnlh7vmrKHmlbDvvIk="/>
+      <column name="display_startTime" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="display_endTime" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="click_counter" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="54K55Ye75qyh5pWw"/>
+      <column name="display_counter" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5pi+56S65qyh5pWw"/>
+      <column name="ad_status" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5bm/5ZGK54q25oCBOyAoMDrlt7LkuIvnur87IDE65Zyo57q/OyAyOuacquS4iue6vyk="/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0"/>
+      <column name="view_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="ad_click_amount" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <column name="ad_display_amount" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <column name="recommend_os" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5bm/5ZGK5oyH5a6a5oqV5pS+55qE5omL5py657O757ufIO+8iDA66buY6K6k5omA5pyJ5bmz5Y+wOyAxOmFuZHJvaWQ7IDI6SU9T77yJ"/>
+      <column name="affiliate_image" sqlType="VARCHAR" precision="1000" scale="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_advertisement_tmp_20150520" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5Li76ZSu"/>
+      <column name="channel_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6aKR6YGTSUQ="/>
+      <column name="ad_pos_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5bm/5ZGK5L2NSUQ="/>
+      <column name="ad_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="file_url" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5bm/5ZGK5paH5Lu255qEVVJM"/>
+      <column name="ad_link" sqlType="VARCHAR" precision="300" scale="0" nullable="false" jdbcType="12" remarks="5bm/5ZGK55qE6ZO+5o6l5Zyw5Z2A"/>
+      <column name="display_title" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5bm/5ZGK5qCH6aKY"/>
+      <column name="display_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5bm/5ZGK5oqV5pS+5pa55byP77yIMDrlsZXnpLrml7bpl7Q7MTrlsZXnpLrmrKHmlbA7Mjrngrnlh7vmrKHmlbDvvIk="/>
+      <column name="display_startTime" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="display_endTime" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="click_counter" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="54K55Ye75qyh5pWw"/>
+      <column name="display_counter" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5pi+56S65qyh5pWw"/>
+      <column name="ad_status" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5bm/5ZGK54q25oCBOyAoMDrlt7LkuIvnur87IDE65Zyo57q/OyAyOuacquS4iue6vyk="/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0"/>
+      <column name="view_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="ad_click_amount" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <column name="ad_display_amount" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <column name="recommend_os" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5bm/5ZGK5oyH5a6a5oqV5pS+55qE5omL5py657O757ufIO+8iDA66buY6K6k5omA5pyJ5bmz5Y+wOyAxOmFuZHJvaWQ7IDI6SU9T77yJ"/>
+      <column name="affiliate_image" sqlType="VARCHAR" precision="1000" scale="0" nullable="false" jdbcType="12" def="Jyc="/>
+    </table>
+    <table name="bd_android_plugins" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="version_code" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5a6i5oi356uv54mI5pys"/>
+      <column name="name" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5o+S5Lu25ZCN5a2X"/>
+      <column name="version" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5o+S5Lu254mI5pys"/>
+      <column name="url" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5o+S5Lu25LiL6L29IHVybA=="/>
+      <column name="create_date" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pel5pyf"/>
+      <column name="status" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="54q25oCB"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_app_channel_version" schema="" catalog="bingdu" type="TABLE">
+      <column name="version_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="54mI5pysaWQ=" autoIncrement="true"/>
+      <column name="version_code" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="54mI5pys5Y+3"/>
+      <column name="version_name" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="54mI5pys5ZCN"/>
+      <column name="status" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="54q25oCB"/>
+      <column name="channel_data" sqlType="VARCHAR" precision="1000" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5rig6YGT"/>
+      <column name="publish_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn" remarks="5Y+R5biD5pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="version_id"/>
+    </table>
+    <table name="bd_app_menu" schema="" catalog="bingdu" type="TABLE">
+      <column name="menu_code" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12" remarks="6I+c5Y2V57yW56CB"/>
+      <column name="menu_name" sqlType="VARCHAR" precision="40" scale="0" nullable="false" jdbcType="12" remarks="6I+c5Y2V5ZCN56ew"/>
+      <column name="menu_status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MQ==" remarks="6I+c5Y2V54q25oCBKDDvvJrnpoHnlKjvvIwx77ya5ZCv55SoKQ=="/>
+      <column name="parent_code" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12" def="Jy0xJw==" remarks="54i257qn6I+c5Y2V57yW56CB"/>
+      <column name="sort" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6I+c5Y2V5o6S5bqP"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0"/>
+      <index name="idx_app_menu_code" unique="true" columns="menu_code"/>
+    </table>
+    <table name="bd_app_version" schema="" catalog="bingdu" type="TABLE">
+      <column name="version_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="54mI5pysaWQ=" autoIncrement="true"/>
+      <column name="version_code" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12" remarks="57O757uf54mI5pys"/>
+      <column name="version_name" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="54mI5pys5ZCN56ew"/>
+      <column name="client_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5a6i5oi356uv57G75Z6L77yMMeaYr+WuieWNk++8jDLmmK9pT1M="/>
+      <column name="publish_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" remarks="5Y+R5biD5pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5L+u5pS55pe26Ze0"/>
+      <column name="is_force_update" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="5piv5ZCm5by65Yi25Y2H57qnLDHmmK/lvLrliLbmm7TmlrAsMOS4jeaYr+W8uuWItuabtOaWsA=="/>
+      <column name="description" sqlType="VARCHAR" precision="500" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5o+P6L+w"/>
+      <column name="download_url" sqlType="VARCHAR" precision="500" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5LiL6L295Zyw5Z2A"/>
+      <column name="channel_version" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5rig6YGT54mI5pys"/>
+      <column name="status" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="54q25oCBLDHmmK/mraPluLjvvIww5piv5Yig6Zmk"/>
+      <primary-key name="PRIMARY" columns="version_id"/>
+    </table>
+    <table name="bd_channel" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6aKR6YGTaWQ=" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12" remarks="6aKR6YGT5ZCN"/>
+      <column name="is_select" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="MDrpu5jorqQgMTrpgInkuK3vvIjpu5jorqTpopHpgZPvvIky77ya5pys5Zyw6aKR6YGT"/>
+      <column name="sort" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="6aKR6YGT55qE5o6S5bqP"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5pu05paw5pe26Ze0"/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MQ==" remarks="MO+8muS4i+e6vyAxOuS4iue6vyAy77ya5Yig6Zmk"/>
+      <column name="mapping" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="6aKR6YGT5pig5bCE"/>
+      <column name="title" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12" def="Jyc="/>
+      <column name="keywords" sqlType="VARCHAR" precision="100" scale="0" nullable="true" jdbcType="12" def="Jyc="/>
+      <column name="description" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc="/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_comment_praise" schema="" catalog="bingdu" type="TABLE">
+      <column name="action_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6KGM5Li66KGo5ZSv5LiA5qCH6K+G" autoIncrement="true"/>
+      <column name="user_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" remarks="55So5oi35ZSv5LiA5qCH6K+G"/>
+      <column name="comment_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" remarks="6K+E6K665ZSv5LiA5qCH6K+G"/>
+      <column name="is_praise" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="5piv5ZCm6LWePyAx5pivLDDlkKY="/>
+      <column name="add_time" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5pON5L2c5pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="action_id"/>
+      <index name="add_time_index" unique="false" columns="add_time"/>
+      <index name="comment_id_index" unique="false" columns="comment_id"/>
+      <index name="user_id_index" unique="false" columns="user_id"/>
+    </table>
+    <table name="bd_comment_report" schema="" catalog="bingdu" type="TABLE">
+      <column name="report_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5ZSv5LiA5qCH6K+G" autoIncrement="true"/>
+      <column name="comment_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="6K+E6K665ZSv5LiA5qCH6K+G"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="55So5oi35ZSv5LiA5qCH6K+G"/>
+      <column name="add_time" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" remarks="5Li+5oql5pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="report_id"/>
+      <index name="comment_id" unique="false" columns="comment_id"/>
+    </table>
+    <table name="bd_config_phonesegment" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSuaWQ=" autoIncrement="true"/>
+      <column name="number_segment" sqlType="CHAR" precision="3" scale="0" nullable="false" jdbcType="1" remarks="5Y+356CB5q61"/>
+      <column name="create_user_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Yib5bu6"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05pS55pe26Ze0" version="true"/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="54q25oCB44CQMO+8muWIoOmZpO+8jDHvvJrlj6/nlKjjgJE="/>
+      <column name="last_update_user" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="5pyA5ZCO5L+u5pS55Lq6aWQ="/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_exception_user" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3aWQ="/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_feedback_suggest" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="contact" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12"/>
+      <column name="suggest" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1"/>
+      <column name="submit_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <column name="processed" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="process_user" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12"/>
+      <column name="process_result" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_goods_detail" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="gid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5ZWG5ZOB5Li76ZSu"/>
+      <column name="goods_rule" sqlType="VARCHAR" precision="3000" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5ZWG5ZOB6KeE5YiZ"/>
+      <column name="goods_desc" sqlType="VARCHAR" precision="3000" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5ZWG5ZOB5o+P6L+w"/>
+      <column name="valid" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5piv5ZCm5pyJ5pWI"/>
+      <column name="second_title" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5Ymv5qCH6aKY"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_goods_info" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="goods_name" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5ZWG5ZOB5ZCN56ew"/>
+      <column name="original_price" sqlType="DECIMAL" precision="9" scale="2" nullable="true" jdbcType="3" def="MC4wMA==" remarks="5Y6f5Lu3"/>
+      <column name="goods_price" sqlType="DECIMAL" precision="9" scale="2" nullable="true" jdbcType="3" def="MC4wMA==" remarks="5ZWG5ZOB5Lu35qC8"/>
+      <column name="goods_num" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5ZWG5ZOB5pWw6YeP"/>
+      <column name="goods_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5ZWG5ZOB57G75Z6LLDHmmK/lrp7niaksMuaYr+iZmuaLnw=="/>
+      <column name="valid" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5piv5ZCm5pyJ5pWI"/>
+      <column name="on_time" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5LiK5p625pe26Ze0"/>
+      <column name="off_time" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5LiL5p625pe26Ze0"/>
+      <column name="add_time" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MDAwMDAwMDAwMDA=" remarks="5re75Yqg5pe26Ze0"/>
+      <column name="virtual_type" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="6Jma5ouf57G75Z6L77yMMeWFheWAvOexu++8jDLljaHljbfnsbs="/>
+      <column name="shipment_type" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="5Y+R6LSn5pa55byP77yMMeS4uuiHquWKqO+8jDLmiYvliqg="/>
+      <column name="mdos_pid" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="55SxTURPU+aPkOS+m+e7mUVD6K6i6LSt55qE5Lqn5ZOB57yW56CB"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_goods_orders" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi35Li76ZSu"/>
+      <column name="gid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5ZWG5ZOB5Li76ZSu"/>
+      <column name="did" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5ZWG5ZOB6K+m5oOF5Li76ZSu"/>
+      <column name="goods_name" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5ZWG5ZOB5ZCN56ew"/>
+      <column name="goods_price" sqlType="DECIMAL" precision="9" scale="2" nullable="true" jdbcType="3" def="MC4wMA==" remarks="5ZWG5ZOB5YWR5o2i5Lu3"/>
+      <column name="goods_desc" sqlType="VARCHAR" precision="3000" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5ZWG5ZOB5o+P6L+w"/>
+      <column name="goods_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="5ZWG5ZOB57G75Z6LLDHlrp7niaksMuiZmuaLnw=="/>
+      <column name="exchange_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn" remarks="5YWR5o2i5pel5pyf"/>
+      <column name="status" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="54q25oCB77yMMOacquWPkei0p++8jDHlt7Lnu4/lj5HotKfvvIwy5aSx6LSl77yMM+mYn+WIl+S4rQ=="/>
+      <column name="exchange_mobile" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5aWW5ZOB5YWR5o2i5omL5py65Y+3"/>
+      <column name="remark" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="6K6i5Y2V5aSH5rOo"/>
+      <column name="ec_order_id" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="RUPoh6rlrprkuYnorqLljZXnvJblj7c="/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_e_m" unique="false" columns="exchange_mobile"/>
+      <index name="idx_e_t" unique="false" columns="exchange_time"/>
+      <index name="idx_gid" unique="false" columns="gid"/>
+      <index name="uid_idx" unique="false" columns="uid"/>
+    </table>
+    <table name="bd_goods_orders_delivery" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="orders_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="6K6i5Y2VSUQ="/>
+      <column name="card_nb" sqlType="VARCHAR" precision="80" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5Y2h5Y+3"/>
+      <column name="card_pwd" sqlType="VARCHAR" precision="80" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5Y2h5a+G"/>
+      <column name="remark" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5aSH5rOo"/>
+      <column name="add_time" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_goods_pic" schema="" catalog="bingdu" type="TABLE">
+      <column name="pid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Zu+54mH5Li76ZSu" autoIncrement="true"/>
+      <column name="gid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5ZWG5ZOB5Li76ZSu"/>
+      <column name="pic_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="5Zu+54mH57G75Z6LLDHmmK/liJfooajlm77vvIwy5piv6K+m5oOF6aG15Zu+"/>
+      <column name="pic_summary" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5Zu+54mH5qaC6L+w"/>
+      <column name="pic_url" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5Zu+54mH6ZO+5o6l"/>
+      <column name="pic_name" sqlType="VARCHAR" precision="100" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5Zu+54mH5ZCN5a2X"/>
+      <column name="pic_format" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5Zu+54mH5qC85byP"/>
+      <column name="pic_size" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5Zu+54mH5aSn5bCP"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5YWl5bqT5pWw5o2u"/>
+      <primary-key name="PRIMARY" columns="pid"/>
+      <index name="idx_gid" unique="false" columns="gid"/>
+    </table>
+    <table name="bd_goods_process_history" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="process_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5aSE55CG57G75Z6LKDHvvJrllYblk4HlhZHmjaLvvIwy77ya5o+Q546wKQ=="/>
+      <column name="target_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55uu5qCHSUQo5ZWG5ZOB5YWR5o2iSUTvvIzmj5DnjrDorrDlvZVJRCk="/>
+      <column name="process_status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5aSE55CG54q25oCBKDDvvJrlpITnkIbkuK3vvIwx77ya5oiQ5Yqf77yMMu+8muWksei0pe+8jDPvvJrpmJ/liJfkuK0p"/>
+      <column name="process_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5aSE55CG5pe26Ze0"/>
+      <column name="remark" sqlType="VARCHAR" precision="500" scale="0" nullable="true" jdbcType="12" remarks="5aSH5rOo"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_proc_his_tid" unique="false" columns="target_id"/>
+      <index name="idx_proc_his_type" unique="false" columns="process_type"/>
+    </table>
+    <table name="bd_goods_stock" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="gid" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5ZWG5ZOBaWQ="/>
+      <column name="goods_info" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5ZWG5ZOB5L+h5oGv"/>
+      <column name="description" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5o+P6L+w"/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="54q25oCBKDDml6DmlYgsMeWcqOWUriwy5bey5ZSuKQ=="/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5re75Yqg5pe26Ze0"/>
+      <column name="sold_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn" remarks="5Ye65ZSu5pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5L+u5pS55pe26Ze0" version="true"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_h5_dragon_data" schema="" catalog="bingdu" type="TABLE">
+      <column name="ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5Li76ZSu5bqP5Y+3"/>
+      <column name="DATE_VAL" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5pel5pyf"/>
+      <column name="TYPE_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5a2Q57G75Z6L5bqP5Y+3"/>
+      <column name="TYPE_VAL" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5oq95aWW57G75Z6L"/>
+      <column name="TYPE_NUM" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5oq95aWW5bqP5Y+377yI5pqC5rKh55So77yJ"/>
+      <column name="STATUS" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="54q25oCB77yIMC0t5Li65pyq5oq9LDEtLeS4uuW3suaKve+8iQ=="/>
+      <primary-key name="PRIMARY" columns="ID"/>
+    </table>
+    <table name="bd_h5_dragon_users" schema="" catalog="bingdu" type="TABLE">
+      <column name="ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5oq95aWWSUQ=" autoIncrement="true"/>
+      <column name="UID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="55So5oi3SUQ="/>
+      <column name="DATE_VAL" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5oq95aWW5pel5pyf"/>
+      <column name="DATA_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5oq95Yiw5aWW5ZOBSUTvvIjmsqHmir3liLDlpZbnmoTkuLotMe+8iQ=="/>
+      <column name="IP_ADDR" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5oq95aWW6ICFSVDlnLDlnYA="/>
+      <column name="CREATE_TIME" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn" remarks="5oq95aWW5pe26Ze0" version="true"/>
+      <primary-key name="PRIMARY" columns="ID"/>
+    </table>
+    <table name="bd_hd_dist" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="activity_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="begin_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="end_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="deleted" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="activity_probability" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_hd_info" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="activity_name" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12"/>
+      <column name="activity_desc" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <column name="begin_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
+      <column name="end_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
+      <column name="activity_url" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12"/>
+      <column name="android_status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="ios_status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="enabled" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="deleted" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="activity_platform" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12"/>
+      <column name="activity_code" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_hd_prize" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="dist_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="prize_name" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12"/>
+      <column name="prize_level" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="prize_type" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="prize_value" sqlType="DECIMAL" precision="9" scale="2" nullable="false" jdbcType="3"/>
+      <column name="prize_num" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="defaulted" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="prize_lower" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="prize_upper" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="prize_url" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_hd_record" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="activity_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5rS75Yqo5Li76ZSu"/>
+      <column name="user_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi35Li76ZSu"/>
+      <column name="prize_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5aWW5ZOB5Li76ZSu"/>
+      <column name="random_code" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12" remarks="6ZqP5py656CB"/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5piv5ZCm6aKG5Y+W"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_hd_user_luck" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="activity_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="user_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="user_name" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12"/>
+      <column name="luck_times" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_hd_winner" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="activity_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5rS75Yqo5Li76ZSu"/>
+      <column name="activity_name" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" remarks="5rS75Yqo5ZCN56ew"/>
+      <column name="user_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi35Li76ZSu"/>
+      <column name="user_name" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" remarks="55So5oi35ZCN56ew"/>
+      <column name="prize_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5aWW5ZOB5Li76ZSu"/>
+      <column name="prize_name" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" remarks="5aWW5ZOB5ZCN56ew"/>
+      <column name="prize_level" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5aWW5ZOB57G75Z6L"/>
+      <column name="prize_type" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5aWW5ZOB5oCn6LSo77yaMOenr+WIhuOAgTHlrp7niak="/>
+      <column name="prize_value" sqlType="DECIMAL" precision="9" scale="2" nullable="true" jdbcType="3" remarks="5aWW5ZOB5Lu35YC8"/>
+      <column name="real_name" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12" remarks="55So5oi35aeT5ZCN"/>
+      <column name="mobile_number" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12" remarks="5omL5py65Y+356CB"/>
+      <column name="address" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" remarks="6YCB6LSn5Zyw5Z2A"/>
+      <column name="zip_code" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12"/>
+      <column name="lucky_status" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5Lit5aWW54q25oCB"/>
+      <column name="lucky_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Lit5aWW5pe26Ze0" version="true"/>
+      <column name="send_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5Y+R5aWW5pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_lottery_date" schema="" catalog="bingdu" type="TABLE">
+      <column name="prize_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5aWW5ZOBaWQ="/>
+      <column name="lottery_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5byA5aWW5pe26Ze077yM5Lia5Yqh5LiK57K+56Gu5Yiw5YiG6ZKf44CQ5omA5Lul6L+Z6YeM5Zyo5o+S5YWl5oiW5piv57yW6L6R5pe26KaB6YeN5aSN5pe26Ze05Lqk6aqM44CR"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <index name="idx_lottery_date" unique="false" columns="create_time"/>
+      <index name="idx_lottery_prize_id" unique="false" columns="prize_id"/>
+    </table>
+    <table name="bd_lottery_pack" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="period_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5ZGo5pyfSUQ="/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3SUQ="/>
+      <column name="lottery_status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5Lit5aWW54q25oCB"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="6LSt5Lmw5pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5L+u5pS55pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_period_id" unique="false" columns="period_id"/>
+    </table>
+    <table name="bd_lottery_period" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="prize_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5aWW5ZOBSUQ="/>
+      <column name="start_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5byA5aeL5pe26Ze0"/>
+      <column name="lottery_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5byA5aWW5pe26Ze0"/>
+      <column name="lottery_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5byA5aWW57G75Z6LOjAg5pyq5oq95aWW44CBMeaKveWlluS4reOAgTLlt7Lmir3lpZY="/>
+      <column name="lottery_status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5byA5aWW54q25oCB"/>
+      <column name="join_num" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5Y+C5LiO5Lq65pWw"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_lottery_prize" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5aWW5ZOBaWQ=" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12" remarks="5aWW5ZOB5ZCN56ew"/>
+      <column name="count" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5pWw6YeP44CQ5q+P5pyf55qE5pWw6YeP44CR"/>
+      <column name="lottery_count" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MQ==" remarks="5byA5aWW6K6h5pWw44CQ5byA5aWW55qE5pyf5pWw44CR"/>
+      <column name="cdkey_count" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5Yi456CB5pWw6YeP77yM5YaX5L2Z5a2X5q6144CC5b2T5q+P5qyh5L+u5pS55LqG44CQ5Yi456CB6KGo44CR5ZCO5pWw5o2u6YO96KaB5L+u5pS55ZCM5q2l"/>
+      <column name="lottery_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5byA5aWW57G75Z6L44CQMO+8muaMh+WumuaXpeacn++8jDHvvJrovr7liLDlj4LkuI7kurrmlbDvvIwgMu+8muWNs+aXtuW8gOWlluOAkQ=="/>
+      <column name="repeat_count" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="6YeN5aSN5qyh5pWw44CQ5Y+q5pyJ5b2T5byA5aWW57G75Z6L5oyJ5qyh5pWw5pe25omN5pyJ5pWI44CR"/>
+      <column name="number_people" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5oyH5a6a6L6+5Yiw55qE5Y+C5LiO5Lq65pWw"/>
+      <column name="ticket_price" sqlType="DECIMAL" precision="7" scale="2" nullable="false" jdbcType="3" remarks="5aWW5Yi45Y2V5Lu3"/>
+      <column name="img_url" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12" remarks="5bCB6Z2i5Zu+"/>
+      <column name="rule_instruction" sqlType="VARCHAR" precision="1000" scale="0" nullable="false" jdbcType="12" remarks="5oq95aWW6KeE5YiZ6K+05piO"/>
+      <column name="prize_description" sqlType="VARCHAR" precision="1000" scale="0" nullable="false" jdbcType="12" remarks="5aWW5ZOB5o+P6L+w"/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5aWW5ZOB54q25oCB44CQMO+8muWIoOmZpO+8jDHvvJrkuIrnur8g77yMIDLvvJrkuIvnur/vvIwgM++8muaaguWBnOOAkQ=="/>
+      <column name="start_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5aWW5ZOB5Y+C5LiO5oq95aWW5byA5aeL5pe26Ze0"/>
+      <column name="end_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5aWW5ZOB5Y+C5LiO5oq95aWW57uT5p2f5pe26Ze0"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5aWW5ZOB5L+h5oGv5Yib5bu65pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_prize_end" unique="false" columns="end_time"/>
+      <index name="idx_prize_start" unique="false" columns="start_time"/>
+    </table>
+    <table name="bd_lottery_prize_carousel" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSuaWQ=" autoIncrement="true"/>
+      <column name="prize_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5aWW5ZOBaWQ="/>
+      <column name="img_url" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12" remarks="6L2u5pKt5Zu+54mHdXJs"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_carousel_prize_id" unique="false" columns="prize_id"/>
+    </table>
+    <table name="bd_lottery_prize_cdkey" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSuaWQ=" autoIncrement="true"/>
+      <column name="prize_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="5aWW5ZOBaWQ="/>
+      <column name="code" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12" remarks="5Yi456CB"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="56CB5Yi454q25oCB44CQMO+8muacquW8gOWllu+8jDHvvJrlt7HlvIDlpZbjgJE="/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_cdkey_code_prize" unique="true" columns="code,prize_id"/>
+      <index name="idx_cdkey_prize_id" unique="false" columns="prize_id"/>
+    </table>
+    <table name="bd_lottery_prize_ticket" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="56Wo5Yi4aWQ=" autoIncrement="true"/>
+      <column name="prize_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5aWW5ZOBaWQ="/>
+      <column name="uid" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3dWlk"/>
+      <column name="user_type" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="55So5oi357G75Z6L44CQMO+8muato+W4uOeUqOaIt++8jDHvvJrlhoXlrprnlKjmiLfjgJE="/>
+      <column name="ticket_code" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12" remarks="56Wo5Yi45Y+344CQMzLkvY11dWlk44CR"/>
+      <column name="price" sqlType="DECIMAL" precision="7" scale="2" nullable="true" jdbcType="3" remarks="5LiL5Y2V5pe255qE5Yi456Wo5Lu35qC8"/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="54q25oCB44CQMO+8muacquW8gOWllu+8jDHvvJrmnKrkuK3lpZbvvIwy77ya5bex5Lit5aWW77yMM++8muW3seS9nOW6n+OAkQ=="/>
+      <column name="lottery_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5byA5aWW57G75Z6L44CQMO+8muaMh+WumuaXpeacn++8jDHvvJrovr7liLDlj4LkuI7kurrmlbDvvIwgMu+8muWNs+aXtuW8gOWlluOAke+8jOWlluWTgeihqOS4reeahOWGl+S9meWtl+autQ=="/>
+      <column name="order_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5LiL5Y2V5pe26Ze0"/>
+      <column name="lottery_date" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzIwMzgtMDEtMTkgMDA6MDA6MDAn" remarks="5byA5aWW5pe26Ze0"/>
+      <column name="user_info_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="LTE=" remarks="55So5oi35Zyw5Z2A5L+h5oGvaWQ="/>
+      <column name="name" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12" remarks="55So5oi35aeT5ZCN44CQ5YaX5L2Z5a2X5q6144CR"/>
+      <column name="phone_number" sqlType="CHAR" precision="11" scale="0" nullable="false" jdbcType="1" remarks="5omL5py65Y+356CB44CQ5YaX5L2Z5a2X5q6144CR"/>
+      <column name="address" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12" remarks="5Zyw5Z2AIOOAkOWGl+S9meWtl+auteOAkQ=="/>
+      <column name="head_url" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" remarks="55So5oi35aS05YOP44CQ5YaX5L2Z5a2X5q6144CR"/>
+      <column name="pack_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="key_code" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12" remarks="5YWR5o2i56CB44CQ5YaX5L2Z5a2X5q6144CR"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_pack_id" unique="false" columns="pack_id"/>
+      <index name="idx_ticket_prize_id" unique="false" columns="prize_id"/>
+    </table>
+    <table name="bd_my_channel" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3aWQ="/>
+      <column name="channel_data" sqlType="VARCHAR" precision="300" scale="0" nullable="false" jdbcType="12" remarks="55So5oi36Ieq5a6a5LmJ6aKR6YGT5pWw5o2u"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn" remarks="5pu05paw5pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_u_c" unique="false" columns="uid,create_time"/>
+    </table>
+    <table name="bd_news_badword" schema="" catalog="bingdu" type="TABLE">
+      <column name="badword_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="find" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12" remarks="5pWP5oSf6K+NKOeUqOS6jueUn+aIkOabv+aNouinhOWImSk="/>
+      <column name="bad_word_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5pWP5oSf6K+N57G75Z6LKDA65paw6Ze76K+E6K665pWP5oSf6K+NOyAxOueUqOaIt+aYteensOaVj+aEn+ivjTsp"/>
+      <primary-key name="PRIMARY" columns="badword_id"/>
+    </table>
+    <table name="bd_news_carousel" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="target_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5paw6Ze75Li76ZSu"/>
+      <column name="ad_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="5bm/5ZGKaWQ="/>
+      <column name="news_title" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5paw6Ze75qCH6aKY"/>
+      <column name="channel" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="6aKR6YGT"/>
+      <column name="promotion" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5piv5ZCm5o6o5bm/"/>
+      <column name="detail_url" sqlType="VARCHAR" precision="1000" scale="0" nullable="true" jdbcType="12" remarks="6K+m5oOF6aG16ZO+5o6l"/>
+      <column name="pic_detail" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5Zu+54mH5piO57uG"/>
+      <column name="show_order" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5bGV56S66aG65bqP"/>
+      <column name="effetive_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="55Sf5pWI5pe26Ze0"/>
+      <column name="expire_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5aSx5pWI5pe26Ze0"/>
+      <column name="editor" sqlType="VARCHAR" precision="10" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="57yW6L6R5Lq6"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5pu05paw5pe26Ze0" version="true"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5YWl5bqT5pe26Ze0"/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="54q25oCB"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_news_column" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="topic_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5LiT6aKY5Li76ZSu"/>
+      <column name="column_name" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12" remarks="5qCP55uu5ZCN56ew"/>
+      <column name="column_creator" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" remarks="5qCP55uu6LSf6LSj5Lq6"/>
+      <column name="column_type" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5qCP55uu57G75Z6L"/>
+      <column name="column_status" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5qCP55uu54q25oCB"/>
+      <column name="column_order" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5qCP55uu6aG65bqP"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0" version="true"/>
+      <column name="deleted" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5piv5ZCm5Yig6Zmk"/>
+      <column name="column_tag" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5qCP55uu5qCH562+"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="topic_idx" unique="false" columns="topic_id"/>
+    </table>
+    <table name="bd_news_column_news_relate" schema="" catalog="bingdu" type="TABLE">
+      <column name="column_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5qCP55uu5Li76ZSu"/>
+      <column name="news_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5paw6Ze75Li76ZSu"/>
+      <column name="topic_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5LiT6aKY5Li76ZSu"/>
+      <column name="channel_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <index name="news_idx" unique="true" columns="news_id"/>
+      <index name="column_idx" unique="false" columns="column_id"/>
+      <index name="topic_idx" unique="false" columns="topic_id"/>
+    </table>
+    <table name="bd_news_comment" schema="" catalog="bingdu" type="TABLE">
+      <column name="comment_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6K+E6K665ZSv5LiA5qCH6K+G" autoIncrement="true"/>
+      <column name="news_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5paw6Ze75ZSv5LiA5qCH6K+G"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="55So5oi35ZSv5LiA5qCH6K+G"/>
+      <column name="comment" sqlType="VARCHAR" precision="1024" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="6K+E6K665YaF5a65"/>
+      <column name="review_time" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="6K+E6K665pe26Ze0KHl5eXlNTWRkSEhtbXNzKQ=="/>
+      <column name="praise_count" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="54K56LWe5pWw"/>
+      <column name="report_count" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5Li+5oql5pWw"/>
+      <column name="on_flag" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="MO+8muaYvuekuueKtuaAge+8jDHvvJrnp7vpmaTnirbmgIE="/>
+      <primary-key name="PRIMARY" columns="comment_id"/>
+      <index name="idx_n_o_r" unique="false" columns="news_id,on_flag,review_time"/>
+      <index name="idx_uid_news" unique="false" columns="uid,news_id"/>
+      <index name="news_id_index" unique="false" columns="news_id"/>
+      <index name="review_time_index" unique="false" columns="review_time"/>
+    </table>
+    <table name="bd_news_detail_pic" schema="" catalog="bingdu" type="TABLE">
+      <column name="pic_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Zu+54mHaWQ=" autoIncrement="true"/>
+      <column name="news_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5paw6Ze7aWQ="/>
+      <column name="pic_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5Zu+54mH57G75Z6LLDHmmK/ova7mkq3lm74sMuaYr+WIl+ihqOWbvg=="/>
+      <column name="pic_url" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5Zu+54mH6ZO+5o6l"/>
+      <column name="pic_name" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5Zu+54mH5ZCN5a2X"/>
+      <column name="pic_summary" sqlType="VARCHAR" precision="500" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5Zu+54mH5qaC6KaB"/>
+      <column name="pic_format" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5Zu+54mH5qC85byP"/>
+      <column name="pic_size" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" remarks="5Zu+54mH5aSn5bCPLOWNleS9jeaYr0tC"/>
+      <column name="pic_pixel" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5Zu+54mH5YOP57Sg"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5YWl5bqT5pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="pic_id"/>
+      <index name="idx_n_p" unique="false" columns="news_id,pic_id"/>
+      <index name="idx_news_id" unique="false" columns="news_id"/>
+    </table>
+    <table name="bd_news_details" schema="" catalog="bingdu" type="TABLE">
+      <column name="news_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5paw6Ze7aWQ=" autoIncrement="true"/>
+      <column name="news_title" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5paw6Ze75qCH6aKY"/>
+      <column name="publish_time" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5Y+R5biD5pe26Ze0"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5b2V5YWl5pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn" remarks="5pu05paw5pe26Ze0"/>
+      <column name="news_source" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5paw6Ze75p2l5rqQ"/>
+      <column name="summary" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="true" jdbcType="-1" remarks="5pGY6KaB"/>
+      <column name="author" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5L2c6ICF"/>
+      <column name="editor" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="57yW6L6R"/>
+      <column name="promotion" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="5o6o5bm/"/>
+      <column name="recommend" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5o6o6I2Q6L2u5pKt"/>
+      <column name="channel" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MjU1" remarks="5paw6Ze757G75Z6L"/>
+      <column name="display_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" def="Mg==" remarks="5pi+56S65qih5byPLOWIhuS4ujPlvKDlm77niYcx77yMMeW8oOWbvueJhzLlkozmloflrZfmmL7npLoz"/>
+      <column name="pic_detail" sqlType="VARCHAR" precision="500" scale="0" nullable="true" jdbcType="12" remarks="5Zu+54mH6K+m5oOF"/>
+      <column name="detail_url" sqlType="VARCHAR" precision="500" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="6K+m5oOF6aG16ZO+5o6l"/>
+      <column name="news_label" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5qCH562+"/>
+      <column name="read_num" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="6ZiF6K+75pWw"/>
+      <column name="comment_num" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="6K+E6K665pWw"/>
+      <column name="praise_num" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="6LWe5pWw"/>
+      <column name="like_num" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5Zac5qyi5pWw"/>
+      <column name="dislike_num" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5LiN5Zac5qyi5pWw"/>
+      <column name="share_num" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5YiG5Lqr5pWw"/>
+      <column name="status" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" def="MjU1" remarks="54q25oCB"/>
+      <column name="main_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="5Li76KaB57G75Z6LLDDkuI3mmK/kuJPpopgsMeaYr+S4k+mimCwy5piv5LiT6aKY5LiL55qE5paw6Ze7"/>
+      <column name="from_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="5p2l5rqQ57G75Z6LLDDpnZ7ljp/liJssMeWOn+WImywy6Ieq5aqS5L2T"/>
+      <column name="close_comment" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="5YWz6Zet6K+E6K6677yI6buY6K6k5Li6MCwx5Li65YWz6Zet6K+E6K6677yJ"/>
+      <column name="close_comment_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5YWz6Zet6K+E6K665pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="news_id"/>
+      <index name="idx_c_p_n" unique="false" columns="channel,publish_time,news_id"/>
+      <index name="idx_ch_u" unique="false" columns="news_id,channel"/>
+      <index name="idx_n_t" unique="false" columns="news_title"/>
+      <index name="idx_publish_time" unique="false" columns="publish_time"/>
+      <index name="idx_r_c_p" unique="false" columns="recommend,channel,publish_time"/>
+      <index name="idx_s_p_c_m" unique="false" columns="status,promotion,channel,main_type"/>
+      <index name="idx_s_p_c_p" unique="false" columns="status,promotion,channel,publish_time"/>
+      <index name="idx_update_time" unique="false" columns="update_time"/>
+    </table>
+    <table name="bd_news_library" schema="" catalog="bingdu" type="TABLE">
+      <column name="nl_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="nl_title" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5paw6Ze75qCH6aKY"/>
+      <column name="nl_source" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5paw6Ze75p2l5rqQ"/>
+      <column name="nl_summary" sqlType="VARCHAR" precision="300" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5paw6Ze75pGY6KaB"/>
+      <column name="nl_channel" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5omA5bGe6aKR6YGTIDAu5piv5rKh5pyJ5omA5bGe6aKR6YGT"/>
+      <column name="nl_status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="54q25oCBOiAwLuaXoOeKtuaAgSAxLuW+heWPkeW4gyAtMS7lt7Lnu4/lj5HluIMgLTIu5bey5Yig6Zmk"/>
+      <column name="nl_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5paw6Ze75YiG57G7IDAu5pyq5YiG57G75paw6Ze7ICAxLuaZrumAmuaWsOmXuyAgMi7lvJXmtYHmlrDpl7s="/>
+      <column name="nl_origin_url" sqlType="VARCHAR" precision="500" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5Y6f5paH6ZO+5o6l"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0" version="true"/>
+      <column name="publish_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn" remarks="5Y+R5biD5pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="nl_id"/>
+    </table>
+    <table name="bd_news_library_content" schema="" catalog="bingdu" type="TABLE">
+      <column name="nlc_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5paw6Ze75bqT55qE5YaF5a65SUQ=" autoIncrement="true"/>
+      <column name="nl_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5paw6Ze75bqTaWQ="/>
+      <column name="nlc_content" sqlType="TEXT" precision="65535" scale="0" nullable="false" jdbcType="-1" remarks="5paw6Ze75YaF5a65"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="nlc_id"/>
+      <index name="nl_id" unique="false" columns="nl_id"/>
+    </table>
+    <table name="bd_news_library_pic" schema="" catalog="bingdu" type="TABLE">
+      <column name="nlp_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="nl_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6aKE5Y+R5biD5paw6Ze7aWQ="/>
+      <column name="nlp_org_url" sqlType="VARCHAR" precision="500" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5Y6f5Zu+54mH5Zyw5Z2AKOWklumTvik="/>
+      <column name="nlp_url" sqlType="VARCHAR" precision="500" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5pys5Zyw5Zu+54mH5Zyw5Z2AKOacrOWcsOebuOWvuei3r+W+hCk="/>
+      <column name="nlp_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="6aKE5Y+R5biD5Zu+54mH57G75Z6LIDAu5pyq55+l57G75Z6LIDEu5Y6f5Zu+IDIu5YiX6KGo5Zu+"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="nlp_id"/>
+      <index name="nl_id" unique="false" columns="nl_id"/>
+    </table>
+    <table name="bd_news_like" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3aWQ="/>
+      <column name="nid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5paH56ugaWQ="/>
+      <column name="is_like" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="Mg==" remarks="MO+8muS4jeWWnOasoiAx77ya5Zac5qyiIDLvvJrpu5jorqQ="/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_news_on_top" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="target_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="55uu5qCHaWQ="/>
+      <column name="titel" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5qCH6aKY"/>
+      <column name="channel" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="6aKR6YGT"/>
+      <column name="target_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" def="MQ==" remarks="55uu5qCH57G75Z6LKDHmlrDpl7ssMuW5v+WRiik="/>
+      <column name="editor" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="57yW6L6R6ICF"/>
+      <column name="status" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="54q25oCBKDHmnInmlYgsMOaXoOaViCk="/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0" version="true"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_news_praise" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3IGlk"/>
+      <column name="nid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5paH56ugaWQ="/>
+      <column name="is_praise" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="Me+8mueCuei1niAw77ya5LiN54K56LWe"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn" remarks="5Yib5bu65pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_u_n_i" unique="false" columns="uid,nid,is_praise"/>
+    </table>
+    <table name="bd_news_reader_record" schema="" catalog="bingdu" type="TABLE">
+      <column name="record_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5ZSv5LiA5qCH6K+G" autoIncrement="true"/>
+      <column name="news_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5paw6Ze75qCH6K+G"/>
+      <column name="user_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="55So5oi35qCH6K+G"/>
+      <column name="read_count" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MQ==" remarks="6ZiF6K+75qyh5pWw"/>
+      <column name="read_time" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="from_userId" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5YiG5Lqr5LqO5ZOq5Liq55So5oi3"/>
+      <primary-key name="PRIMARY" columns="record_id"/>
+      <index name="idx_u_n" unique="false" columns="user_id,news_id"/>
+      <index name="uid_idx" unique="false" columns="user_id"/>
+    </table>
+    <table name="bd_news_topic" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="title" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12" remarks="5LiT6aKY5ZCN56ew"/>
+      <column name="summary" sqlType="VARCHAR" precision="500" scale="0" nullable="false" jdbcType="12" remarks="5LiT6aKY5pGY6KaB"/>
+      <column name="url" sqlType="VARCHAR" precision="100" scale="0" nullable="true" jdbcType="12" remarks="5LiT6aKY5Zyw5Z2A"/>
+      <column name="template_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5LiT6aKY5qih5p2/"/>
+      <column name="creator" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12" remarks="5Yib5bu65Lq6"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0" version="true"/>
+      <column name="recommend" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="MDrliJfooaggMTrmjqjojZDova7mkq0g"/>
+      <column name="read_num" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="6ZiF6K+75qyh5pWw"/>
+      <column name="comment_num" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="6K+E6K665qyh5pWw"/>
+      <column name="praise_num" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="54K56LWe5qyh5pWw"/>
+      <column name="share_num" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5YiG5Lqr5qyh5pWw"/>
+      <column name="topic_status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5LiT6aKY54q25oCBIDDvvJrkuIvnur8gMe+8muS4iue6vyA="/>
+      <column name="deleted" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5piv5ZCm5Yig6Zmk"/>
+      <column name="publish_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_news_topic_channel_relate" schema="" catalog="bingdu" type="TABLE">
+      <column name="channel_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="6aKR6YGT5Li76ZSu"/>
+      <column name="topic_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5LiT6aKY5Li76ZSu"/>
+      <column name="news_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="5paw6Ze75Li76ZSu"/>
+      <index name="news_id_idx" unique="false" columns="news_id"/>
+      <index name="topic_id_idx" unique="false" columns="topic_id"/>
+    </table>
+    <table name="bd_news_topic_pic" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="topic_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5LiT6aKY5Li76ZSu"/>
+      <column name="pic_type" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5Zu+54mH57G75Z6LIDE65YiX6KGo5Zu+IDI66L2u5pKt5Zu+IDPvvJrkuLvpopjlm74gNO+8muebuOWFs+WbvueJhw=="/>
+      <column name="pic_link" sqlType="VARCHAR" precision="100" scale="0" nullable="true" jdbcType="12" remarks="6ZO+5o6l5Zyw5Z2A"/>
+      <column name="pic_url" sqlType="VARCHAR" precision="100" scale="0" nullable="true" jdbcType="12" remarks="5Zu+54mH5Zyw5Z2A"/>
+      <column name="pic_name" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12" remarks="5Zu+54mH5ZCN56ew"/>
+      <column name="pic_desc" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" remarks="5Zu+54mH5o+P6L+w"/>
+      <column name="pic_order" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5Zu+54mH6aG65bqP"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0" version="true"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="topic_id_idx" unique="false" columns="topic_id"/>
+    </table>
+    <table name="bd_news_topic_template" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="template_name" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" remarks="5qih5p2/5ZCN56ew"/>
+      <column name="template_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="5qih5p2/57G75Z6LOjHniannkIbmlofku7bjgIEy5pWw5o2u5bqT5LqM6L+b5Yi2"/>
+      <column name="template_address" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" remarks="5qih5p2/5Zyw5Z2AOuexu+Wei+S4uueJqeeQhuaWh+S7tuaXtuaJjeS4jeS4uuepug=="/>
+      <column name="template_content" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1" remarks="5qih5p2/5YaF5a65Ouexu+Wei+aVsOaNruW6k+S6jOi/m+WItuaJjeS4jeS4uuepug=="/>
+      <column name="template_status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5qih5p2/54q25oCBOjDlj6/nlKjjgIEx5LiN5Y+v55So"/>
+      <column name="creator" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12" remarks="5Yib5bu65Lq6"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0" version="true"/>
+      <column name="deleted" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5piv5ZCm5Yig6Zmk"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_point_rule" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="point_type" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="point_value" sqlType="DECIMAL" precision="9" scale="2" nullable="true" jdbcType="3"/>
+      <column name="point_time" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="point_max" sqlType="DECIMAL" precision="9" scale="2" nullable="true" jdbcType="3"/>
+      <column name="point_name" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12"/>
+      <column name="rule_desc" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12"/>
+      <column name="version_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="display" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="deleted" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="returned" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_point_rule_version" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="version_code" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12"/>
+      <column name="version_desc" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12"/>
+      <column name="deleted" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="max_point" sqlType="DECIMAL" precision="9" scale="2" nullable="true" jdbcType="3"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_point_sys_config" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="total_money" sqlType="DECIMAL" precision="13" scale="2" nullable="true" jdbcType="3"/>
+      <column name="total_point" sqlType="DECIMAL" precision="13" scale="2" nullable="true" jdbcType="3"/>
+      <column name="total_user" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="avg_point" sqlType="DECIMAL" precision="13" scale="4" nullable="true" jdbcType="3"/>
+      <column name="avg_income" sqlType="DECIMAL" precision="13" scale="4" nullable="true" jdbcType="3"/>
+      <column name="system_avg_value" sqlType="DECIMAL" precision="13" scale="4" nullable="true" jdbcType="3"/>
+      <column name="manual_avg_value" sqlType="DECIMAL" precision="13" scale="4" nullable="true" jdbcType="3"/>
+      <column name="income_limit" sqlType="DECIMAL" precision="13" scale="4" nullable="true" jdbcType="3"/>
+      <column name="collect_money" sqlType="DECIMAL" precision="13" scale="4" nullable="true" jdbcType="3"/>
+      <column name="is_auto" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="statistics_date" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_point_sysinfo" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="today_money" sqlType="DECIMAL" precision="9" scale="2" nullable="true" jdbcType="3"/>
+      <column name="yesterday_money" sqlType="DECIMAL" precision="9" scale="2" nullable="true" jdbcType="3"/>
+      <column name="join_user_num" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="statistics_date" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_point_upper_bound" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="op_num" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="op_type" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="LTEyNw=="/>
+      <column name="op_point" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
+      <column name="op_date" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91" def="JzE5NzAtMDEtMDEn"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_o_o" unique="false" columns="op_date,op_type"/>
+      <index name="idx_u_o_o" unique="false" columns="uid,op_type,op_date"/>
+      <index name="uid_index" unique="false" columns="uid"/>
+    </table>
+    <table name="bd_point_upper_bound_201507" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="op_num" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="op_type" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="LTEyNw=="/>
+      <column name="op_point" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
+      <column name="op_date" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91" def="JzE5NzAtMDEtMDEn"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_o_o" unique="false" columns="op_date,op_type"/>
+      <index name="idx_u_o_o" unique="false" columns="uid,op_type,op_date"/>
+      <index name="uid_index" unique="false" columns="uid"/>
+    </table>
+    <table name="bd_point_upper_bound_201508" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="op_num" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="op_type" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="LTEyNw=="/>
+      <column name="op_point" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
+      <column name="op_date" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91" def="JzE5NzAtMDEtMDEn"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_o_o" unique="false" columns="op_date,op_type"/>
+      <index name="idx_u_o_o" unique="false" columns="uid,op_type,op_date"/>
+      <index name="uid_index" unique="false" columns="uid"/>
+    </table>
+    <table name="bd_point_upper_bound_201509" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="op_num" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="op_type" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="LTEyNw=="/>
+      <column name="op_point" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
+      <column name="op_date" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91" def="JzE5NzAtMDEtMDEn"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_o_o" unique="false" columns="op_date,op_type"/>
+      <index name="idx_u_o_o" unique="false" columns="uid,op_type,op_date"/>
+      <index name="uid_index" unique="false" columns="uid"/>
+    </table>
+    <table name="bd_point_upper_bound_backup" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="op_num" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="op_type" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="LTEyNw=="/>
+      <column name="op_point" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
+      <column name="op_date" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91" def="JzE5NzAtMDEtMDEn"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_o_o" unique="false" columns="op_date,op_type"/>
+      <index name="idx_u_o_o" unique="false" columns="uid,op_type,op_date"/>
+      <index name="uid_index" unique="false" columns="uid"/>
+    </table>
+    <table name="bd_point_user_account_detail" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3aWQ="/>
+      <column name="change_money" sqlType="DECIMAL" precision="9" scale="4" nullable="true" jdbcType="3" remarks="5Y+Y5Yqo6YeR6aKd"/>
+      <column name="change_type" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5Y+Y5Yqo57G75Z6L77yaDQogICAgICAgICAgICAx44CB56ev5YiG5pS255uK77ybDQogICAgICAgICAgICAy44CB5ZWG5Z+O5raI6LS577ybDQogICAgICAgICAgICAz44CB5o+Q546w5omj5YeP77ybDQogICAgICAgICAgICA044CB5byC5bi46L+U6L+Y44CC"/>
+      <column name="change_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Y+Y5Yqo5pe26Ze0"/>
+      <column name="account_balance" sqlType="DECIMAL" precision="9" scale="4" nullable="true" jdbcType="3" remarks="6LSm5oi35L2Z6aKd"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="uid_index" unique="false" columns="uid"/>
+    </table>
+    <table name="bd_point_user_daily_record" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="today_point" sqlType="DECIMAL" precision="9" scale="2" nullable="true" jdbcType="3"/>
+      <column name="today_income" sqlType="DECIMAL" precision="8" scale="4" nullable="true" jdbcType="3"/>
+      <column name="statistics_date" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91" def="JzE5NzAtMDEtMDEn"/>
+      <column name="archived" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="LTEyNw=="/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_s_a_u" unique="false" columns="statistics_date,archived,uid"/>
+      <index name="idx_st_t" unique="false" columns="statistics_date,today_income"/>
+      <index name="idx_today_income" unique="false" columns="today_income"/>
+      <index name="idx_today_point" unique="false" columns="today_point"/>
+      <index name="idx_u_s" unique="false" columns="uid,statistics_date"/>
+      <index name="uid_index" unique="false" columns="uid"/>
+    </table>
+    <table name="bd_point_user_info" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="cash_income" sqlType="DECIMAL" precision="13" scale="4" nullable="true" jdbcType="3"/>
+      <column name="history_point_income" sqlType="DECIMAL" precision="9" scale="2" nullable="true" jdbcType="3"/>
+      <column name="history_cash_income" sqlType="DECIMAL" precision="13" scale="4" nullable="true" jdbcType="3"/>
+      <column name="history_consume_record" sqlType="DECIMAL" precision="13" scale="4" nullable="true" jdbcType="3"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="AK_unique_uid" unique="true" columns="uid"/>
+    </table>
+    <table name="bd_point_withdraw_record" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="user_name" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12" remarks="55So5oi35ZCN56ew"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi35Li76ZSu"/>
+      <column name="withdraw_money" sqlType="DECIMAL" precision="9" scale="2" nullable="true" jdbcType="3" remarks="5o+Q546w6YeR6aKd"/>
+      <column name="withdraw_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5o+Q546w5pe26Ze0"/>
+      <column name="withdraw_status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="LTE=" remarks="5o+Q546w54q25oCB77yIMDrmnKrmj5DnjrAgMTrmj5DnjrDmiJDlip8gMjrlvILluLjmj5DnjrDvvIk="/>
+      <column name="pay_account" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5pSv5LuY6LSm5oi3"/>
+      <column name="pay_platform" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5pSv5LuY5bmz5Y+w"/>
+      <column name="pay_name" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5pSv5LuY5aeT5ZCN"/>
+      <column name="op_uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" remarks="5aSE55CG5Lq65Li76ZSu"/>
+      <column name="op_user_name" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12" remarks="5aSE55CG5Lq65ZCN56ew"/>
+      <column name="op_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5aSE55CG5pe26Ze0"/>
+      <column name="remark" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" remarks="5aSH5rOo5L+h5oGv"/>
+      <column name="wid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5o+Q546w5pa55byP5Li76ZSu"/>
+      <column name="fees" sqlType="DECIMAL" precision="9" scale="2" nullable="false" jdbcType="3" def="MC4wMA==" remarks="5omL57ut6LS5"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_pay_account" unique="false" columns="pay_account"/>
+      <index name="idx_pay_name" unique="false" columns="pay_name"/>
+      <index name="idx_pay_platform" unique="false" columns="pay_platform"/>
+      <index name="idx_user_name" unique="false" columns="user_name"/>
+      <index name="idx_wid" unique="false" columns="wid"/>
+      <index name="idx_wt_ws_pp" unique="false" columns="withdraw_time,withdraw_status,pay_platform"/>
+      <index name="status_time_index" unique="false" columns="withdraw_time,withdraw_status"/>
+      <index name="uid_index" unique="false" columns="uid"/>
+    </table>
+    <table name="bd_rmi_record" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="interface_name" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5o6l5Y+j5ZCN5a2X"/>
+      <column name="interface_code" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5o6l5Y+j57yW56CB"/>
+      <column name="interface_type" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5o6l5Y+j57G75Z6L"/>
+      <column name="caller" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="6LCD55So5pa5"/>
+      <column name="responder" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5ZON5bqU5pa5"/>
+      <column name="call_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="6LCD55So5pe26Ze0" version="true"/>
+      <column name="respond_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn" remarks="5ZON5bqU5pe26Ze0"/>
+      <column name="call_content" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1" remarks="6LCD55So5oql5paH"/>
+      <column name="encode_call_content" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1" remarks="5Yqg5a+G6LCD55So5oql5paH"/>
+      <column name="respond_content" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1" remarks="5ZON5bqU5oql5paH"/>
+      <column name="encode_respond_content" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1" remarks="auWKoOWvhuWTjeW6lOaKpeaWhw=="/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_share_action" schema="" catalog="bingdu" type="TABLE">
+      <column name="action_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="user_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3aWQ="/>
+      <column name="share_type" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" remarks="5YiG5Lqr57G75Z6LLOaciTPnp40s6ZiF6K+7MSzmj5DnjrAyLOWFkeeOsDM="/>
+      <column name="share_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" remarks="5YiG5LqraWQs5aaC5p6c5pyJLOS+i+WmguaWh+eroGlkLOWVhuWTgWlk562J"/>
+      <column name="is_share" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="true" jdbcType="-6" remarks="5piv5ZCm5YiG5Lqr"/>
+      <column name="share_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn" remarks="5YiG5Lqr5pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="action_id"/>
+    </table>
+    <table name="bd_sms_record" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="use_num" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5b2T5aSp55qE55+t5L+h5L2/55So5pWw"/>
+      <column name="current_num" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5b2T5YmN55+t5L+h5oC75pWw"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_user" schema="" catalog="bingdu" type="TABLE">
+      <column name="user_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3SUQ=" autoIncrement="true"/>
+      <column name="device_id" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="6K6+5aSHSUQ="/>
+      <column name="nick_name" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="55So5oi35pi156ew"/>
+      <column name="sex" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="Mg==" remarks="55So5oi35oCn5YirICgwOuWlszsxOueUtzsyOuWFtuWugzsp"/>
+      <column name="head_img_url" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="55So5oi35aS05YOPVVJM"/>
+      <column name="user_status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="55So5oi355qE54q25oCBKDA65b6F57yW6L6R55So5oi36LWE5paZOzE65ZCv55SoOzI656aB55SoOyk="/>
+      <column name="last_login_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pyA6L+R5LiA5qyh55m76ZmG5pe26Ze0"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0"/>
+      <column name="update_by" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="login_remark" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="55m76ZmG6ZmE5bGe5L+h5oGv"/>
+      <column name="login_counter" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="55m76ZmG5qyh5pWw"/>
+      <column name="from_code" sqlType="VARCHAR" precision="10" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="user_id"/>
+      <index name="deviceId_unique_index" unique="true" columns="device_id"/>
+      <index name="idx_create_time" unique="false" columns="create_time"/>
+      <index name="idx_n_u" unique="false" columns="nick_name,user_id"/>
+      <index name="idx_update_time" unique="false" columns="update_time"/>
+      <index name="user_id" unique="false" columns="user_id"/>
+    </table>
+    <table name="bd_user_applist" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="device_id" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12" remarks="6K6+5aSH5Y+3"/>
+      <column name="app_name" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12" remarks="5bqU55So5ZCN56ew"/>
+      <column name="app_package_name" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12" remarks="5bqU55So5YyF5ZCN"/>
+      <column name="app_version" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12" remarks="5bqU55So54mI5pys"/>
+      <column name="app_version_name" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12" remarks="5bqU55So54mI5pys5ZCN56ew"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5L+u5pS55pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_user_block" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3SUQ="/>
+      <column name="block_type" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" remarks="56aB55So57G75Z6L"/>
+      <column name="block_time_duration" sqlType="VARCHAR" precision="10" scale="0" nullable="true" jdbcType="12" remarks="56aB55So5pe26ZW/"/>
+      <column name="block_from_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" remarks="56aB55So6LW35aeL5pe26Ze0"/>
+      <column name="block_end_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" remarks="56aB55So57uT5p2f5pe26Ze0"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="uid_b" unique="false" columns="uid,block_type"/>
+    </table>
+    <table name="bd_user_detail" schema="" catalog="bingdu" type="TABLE">
+      <column name="user_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3SUQ="/>
+      <column name="source" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12" remarks="55So5oi35bmz5Y+w"/>
+      <column name="open_id" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12" remarks="5omA5Zyo5bmz5Y+w55qE55So5oi3SUQ="/>
+      <column name="nick_name" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="55So5oi35pi156ew"/>
+      <column name="sex" sqlType="CHAR" precision="1" scale="0" nullable="true" jdbcType="1" remarks="5oCn5Yir"/>
+      <column name="city" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12" remarks="5Z+O5biC"/>
+      <column name="country" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12" remarks="5Zu95a62"/>
+      <column name="province" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12" remarks="55yB5Lu9"/>
+      <column name="language" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12" remarks="6K+t6KiA"/>
+      <column name="head_img_url" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12" remarks="5Zu+5YOPVVJM"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="true" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0"/>
+      <column name="password" sqlType="VARCHAR" precision="100" scale="0" nullable="true" jdbcType="12"/>
+      <index name="idx_nick_name" unique="false" columns="nick_name"/>
+      <index name="idx_open_id" unique="false" columns="open_id"/>
+      <index name="idx_src_open" unique="false" columns="source,open_id"/>
+      <index name="idx_user_id" unique="false" columns="user_id"/>
+    </table>
+    <table name="bd_user_recommend_code" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="user_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3SUQ="/>
+      <column name="rec_code" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12" remarks="6YKA6K+356CB"/>
+      <column name="rec_counter" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5YiG5Lqr5bim5p2l5rOo5YaM55qE5qyh5pWw"/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="54q25oCB77yIMDrmnInmlYg7IDE65aSx5pWI77yJ"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5pu05paw5pe26Ze0"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="rec_code_UNIQUE" unique="true" columns="rec_code"/>
+      <index name="idx_user_id" unique="false" columns="user_id"/>
+    </table>
+    <table name="bd_vote" schema="" catalog="bingdu" type="TABLE">
+      <column name="vote_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="votee_id" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="votee_info" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <column name="vote_count" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="photo_url" sqlType="VARCHAR" precision="500" scale="0" nullable="false" jdbcType="12"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
+      <index name="idx_bd_vote" unique="true" columns="vote_id,votee_id"/>
+    </table>
+    <table name="bd_withdraw_feedback" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="batch_no" sqlType="VARCHAR" precision="14" scale="0" nullable="false" jdbcType="12" def="JzE5NzAwMTAxMDAwMDAwJw==" remarks="5om55qyh5Y+3"/>
+      <column name="pay_date" sqlType="VARCHAR" precision="8" scale="0" nullable="false" jdbcType="12" def="JzE5NzAwMTAxJw==" remarks="5LuY5qy+5pel5pyf"/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="wid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5YaF6YOo5rWB5rC05Y+3"/>
+      <column name="identifying" sqlType="CHAR" precision="1" scale="0" nullable="false" jdbcType="1" def="Jyc=" remarks="5piv5ZCm5oiQ5Yqf"/>
+      <column name="cause" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5Y6f5Zug5Luj56CB"/>
+      <column name="account" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5pS25qy+5pa56LSm5Y+3"/>
+      <column name="name" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5pS25qy+6LSm5Y+35aeT5ZCN"/>
+      <column name="money" sqlType="DECIMAL" precision="9" scale="2" nullable="false" jdbcType="3" def="MC4wMA==" remarks="5LuY5qy+6YeR6aKd"/>
+      <column name="order_num" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12" def="Jy0xJw==" remarks="5aSW6YOo5rWB5rC05Y+3"/>
+      <column name="complete_time" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12" def="JzE5NzAwMTAxMDAwMDAwJw==" remarks="5a6M5oiQ5pe26Ze0"/>
+      <column name="closed" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA=="/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_batch_wid" unique="false" columns="batch_no,wid"/>
+    </table>
+    <table name="bd_withdraw_log" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="log_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="6K6w5b2V5pe26Ze0"/>
+      <column name="log_content" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="true" jdbcType="-1" remarks="5pel5b+X5YaF5a65"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="bd_withdraw_way" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="pm_name" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5pSv5LuY5bmz5Y+w5ZCN56ew"/>
+      <column name="pm_sort" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MTAw" remarks="5pSv5LuY5bmz5Y+w5o6S5bqP"/>
+      <column name="pm_icon_url" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12" remarks="5pSv5LuY5bmz5Y+w5Zu+5qCH"/>
+      <column name="free_num" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA==" remarks="5YWN6LS56aKd5bqm5pWw"/>
+      <column name="fees" sqlType="DECIMAL" precision="9" scale="2" nullable="false" jdbcType="3" def="MC4wMA==" remarks="5omL57ut6LS5"/>
+      <column name="prompt" sqlType="VARCHAR" precision="100" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5o+Q56S65L+h5oGv"/>
+      <column name="arrive_data" sqlType="VARCHAR" precision="100" scale="0" nullable="true" jdbcType="12" def="Jyc=" remarks="5Yiw6LSm5pel5pyf5o+Q56S6"/>
+      <column name="is_free" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5piv5ZCm5YWN6LS5"/>
+      <column name="pm_type" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="LTE=" remarks="5pSv5LuY5bmz5Y+w57G75Z6LIO+8iDAgOiDpk7booYzljaEgMSA6IOaUr+S7mOWunSAyIDog6LSi5LuY6YCaIO+8iQ=="/>
+      <column name="pm_status" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5bmz5Y+w54q25oCBKCAwIDog5Yig6ZmkIDE6IOS4iue6vyAyOiDnpoHnlKjvvIk="/>
+      <column name="create_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="update_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn" remarks="5pu05paw5pe26Ze0"/>
+      <column name="is_limit" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA==" remarks="5piv5ZCm6ZmQ6aKd77yIMO+8muS4jemZkOminSAx77ya6ZmQ6aKd77yJ"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="jinan_teeth_donation" schema="" catalog="bingdu" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" remarks="5Li76ZSu" autoIncrement="true"/>
+      <column name="ip" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12" remarks="aXDlnLDlnYA="/>
+      <column name="uid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="55So5oi3aWQ="/>
+      <column name="donate_date" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" remarks="5o2Q6LWg5pel5pyf"/>
+      <column name="real_name" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12" remarks="55yf5a6e5ZCN5a2X"/>
+      <column name="donate_money" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7" remarks="5o2Q6LWg6YeR6aKd"/>
+      <column name="origina_balance" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7" remarks="5Y6f5pyJ5L2Z6aKd"/>
+      <column name="status" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="MQ==" remarks="MS3mnKrliKDpmaQsMi0t5bey5Yig6ZmkLDMtLeW3suaJo+asvg=="/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="uid_idx" unique="false" columns="uid"/>
+    </table>
+  </data-source>
+</component>

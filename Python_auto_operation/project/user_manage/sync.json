@@ -1,0 +1,77 @@
+[
+  {
+    "username": "user1",
+    "shell": "/bin/bash", 
+    "uid": "2001",
+    "__cls__": "__main__.User", 
+    "key": null, 
+    "pwd": null, 
+    "dash_pubkey": null, 
+    "dash_key": null, 
+    "groups": [
+      {
+        "groupname": "user1",
+        "gid": "2001",
+        "hosts": [], 
+        "users": [], 
+        "__cls__": "__main__.Group"
+      }, 
+      {
+        "groupname": "ops", 
+        "gid": "2999",
+        "hosts": [
+          {
+            "__cls__": "__main__.Host",
+            "ip":"192.168.10.32",
+            "hostname":"mongo2"
+          },
+          {
+            "__cls__": "__main__.Host",
+            "ip":"192.168.10.33",
+            "hostname":"mongo3"
+          }
+        ],
+        "users": [],
+        "__cls__": "__main__.Group"
+      }
+    ], 
+    "pubkey": null, 
+    "dash_keypassphrase": null, 
+    "homedir": null
+  },
+  {
+    "username": "user2",
+    "shell": "/bin/bash",
+    "uid": "3001",
+    "__cls__": "__main__.User",
+    "key": null,
+    "pwd": null,
+    "dash_pubkey": null,
+    "dash_key": null,
+    "groups": [
+      {
+        "groupname": "user2",
+        "gid": "3001",
+        "hosts": [],
+        "users": [],
+        "__cls__": "__main__.Group"
+      },
+      {
+        "groupname": "dev",
+        "gid": "3999",
+        "hosts": [
+          {
+            "__cls__": "__main__.Host",
+            "ip":"192.168.10.33",
+            "hostname":"mongo3"
+          }
+        ],
+        "users": [],
+        "__cls__": "__main__.Group"
+      }
+    ],
+    "pubkey": null,
+    "dash_keypassphrase": null,
+    "homedir": null
+  }
+]

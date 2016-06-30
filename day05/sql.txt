@@ -1,0 +1,7 @@
+getuid = "select user_id from bd_user where nick_name rlike \'^u'并读(管理员|客服)'\'"
+getuid = "select t.uid from bd_point_withdraw_record t where t.pay_account REGEXP '^[a-z]{3,4}[0-9]{5}@126.com$'"
+getuid = "select DISTINCT t.uid from bd_point_withdraw_record t where t.pay_account REGEXP '^[a-z]{4}[0-9]{4,6}@163.com$' order by t.uid"
+#2015-07-01
+getuid = "select t.uid from bd_point_withdraw_record t where t.pay_account REGEXP '^[a-z]{5}[0-9]{2}@163.com$' order by t.uid"
+getuid = "select DISTINCT t.uid from bd_point_withdraw_record t where t.pay_account REGEXP '^[a-z]{4}[0-9]{5}@126.com$' order by t.uid"
+getuid = "select DISTINCT t.uid from bd_point_withdraw_record t where t.pay_account REGEXP '^[a-z]{4}[0-9]{4,6}@163.com$' order by t.uid"

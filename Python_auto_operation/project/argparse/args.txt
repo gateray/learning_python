@@ -1,0 +1,4 @@
+-b
+bar
+-c
+xxx.conf

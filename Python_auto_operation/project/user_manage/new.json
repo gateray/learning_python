@@ -1,0 +1,58 @@
+[
+  {
+    "groupname": "ops", 
+    "gid": "2001", 
+    "hosts": [
+      {
+        "ip": "192.168.10.32", 
+        "hostname": "mongo2", 
+        "__cls__": "__main__.Host"
+      }
+    ], 
+    "users": [
+      {
+        "username": "user1", 
+        "shell": "/bin/bash", 
+        "uid": "1005", 
+        "__cls__": "__main__.User", 
+        "key": null, 
+        "pwd": null, 
+        "dash_pubkey": null, 
+        "dash_key": null, 
+        "groups": [], 
+        "pubkey": null, 
+        "dash_keypassphrase": null, 
+        "homedir": null
+      }
+    ], 
+    "__cls__": "__main__.Group"
+  }, 
+  {
+    "groupname": "dev", 
+    "gid": "2002", 
+    "hosts": [
+      {
+        "ip": "192.168.10.33", 
+        "hostname": "mongo3", 
+        "__cls__": "__main__.Host"
+      }
+    ], 
+    "users": [
+      {
+        "username": "user2", 
+        "shell": "/bin/bash", 
+        "uid": "1006", 
+        "__cls__": "__main__.User", 
+        "key": null, 
+        "pwd": null, 
+        "dash_pubkey": null, 
+        "dash_key": null, 
+        "groups": [], 
+        "pubkey": null, 
+        "dash_keypassphrase": null, 
+        "homedir": null
+      }
+    ], 
+    "__cls__": "__main__.Group"
+  }
+]

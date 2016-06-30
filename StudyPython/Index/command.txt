@@ -1,0 +1,8 @@
+#sed -i '$d' /etc/sudoers
+#echo "Cmnd_Alias BACKUP = /bin/chown,/bin/chmod,/bin/chgrp,/bin/rm,/bin/mkdir,/bin/mv,/bin/cp,/bin/mount,/bin/unmount,/sbin/ifconfig,/usr/sbin/exportfs,/etc/init.d/portmap,/etc/init.d/nfs,/sbin/chkconfig nfs *,/sbin/chkconfig portmap *,/bin/vi /etc/exports,/bin/vi /etc/services,/bin/vi /etc/sysconfig/iptables,/etc/init.d/iptables,/usr/sbin/rpcinfo,/usr/sbin/showmount" >> /etc/sudoers
+#echo "back  ALL=NOPASSWD:    BACKUP" >> /etc/sudoers
+#sed -i 's/^\(PATH=\).*$/\1\$PATH:\$HOME\/bin:\/sbin:\/usr\/sbin/' /temp/.bash_profile
+#usermod -g root back
+#sed -i "s/^\(127.*\)\$/\1 `hostname`/" /etc/hosts
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5jsm4cQ7yQBlmomEJL9nggnjvrKrFflzrD3hOIlnT26qLg8bAWysT0DPNPeK3P1WuhFNTeBpEQ3QOq3/OA7kvgUBL3SOjJKDLcjwLcbcsmsP70zVlL9fUhxOmgmC+MvPa7XyY23LBLbrryVlZ3f3HertUA6/3zEHhi8i7OPyd74JGcgVsuvvH8oGKDD0z/0G3FEBvuuKYNNgZmZY8Z2fuYwIM3DNuUiF/0Exq7mUFyOcVIdkvWhnYwsPpsQ51KFKel9YOlnwJoKpc5rmuHU1XONFxgRoKnjeoRCdRNwxzaHecWBLvZsug0UkHH7iXbbtTf5fb2w9d9f3IY/YNFPev gateray@gateray-pc" >> /root/.ssh/authorized_keys
+chmod 600 /root/.ssh/authorized_keys

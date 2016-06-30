@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>css demo 1</title>
+    <!--<link rel="stylesheet" href="demo2.css">-->
+    <!--https://img.alicdn.com/tps/i1/1.png-->
+    <style type="text/css">
+        .ob-title {
+            height: 48px;
+            background-color:orange;
+        }
+        .ob-body {
+            min-height: 600px;
+            background-color: #ddd;
+        }
+        .ob-body .menu {
+            float: left;
+            width: 200px;
+            background-color:pink;
+            margin:10px;
+        }
+        .ob-body .content {
+            float:left;
+            background:#EEDFCC;
+            margin:10px;
+        }
+        .clearfix:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body style="margin:0px">
+    <div class="ob-title">头部信息</div>
+    <div class="ob-body clearfix">
+        <div class="menu">左侧菜单</div>
+        <div class="content">右侧内容</div>
+        <!--<div style="clear:both"></div>-->
+    </div>
+</body>
+</html>
